@@ -1,18 +1,20 @@
 # Choreographic Interventions Syllabus - Spring 2019
 
-- Spring 2019, Fridays, 3:20PM-6:15PM in Room 50
-- Schedule for [Barnard/Columbia Students](https://github.com/mimiyin/choreographic-interventions-s19/wiki/Class-Dates-and-Times-for-Barnard-Columbia-Students)
-- We will be making weekly field trips to the dance studio @NYU's Center for Ballet and The Arts [@16 Cooper Square](https://www.google.com/maps/place/20+Cooper+Sq,+New+York,+NY+10003/data=!4m2!3m1!1s0x89c2599b1f6830c9:0x59c76513472fc813?sa=X&ved=2ahUKEwiOt_7-n-3dAhVCh-AKHVM5BJIQ8gEwAHoECAAQAQ)
-- Instructors: Mimi Yin, mimi.yin@nyu.edu, Kat Sullivan, kat.sullivan@nyu.edu
+- Spring 2020,
+   - Barnard: Wednesdays 1:10-2:25PM, Fridays 2-4PM or 2-5PM depending on the week.
+   - ITP: Fridays, 2-5PM
+- Locations: The Media Commons at 370 Jay Street, Brooklyn NY and The Movement Lab at Barnard College, Manhattan, NY
+- Detailed schedule for Times and Locations
+- Instructors: Mimi Yin, mimi.yin@nyu.edu, NiNi Dongnier
 - [Office Hours Signup](https://itp.nyu.edu/inwiki/Signup/Mimi)
 
 ### Course Structure | [See introductory description below.](#course-description)
 
-Over the course of the semester, we will cover 3 topic areas that correspond to 3 parameters of choreography: Pathways, The Body (Form + Substance) and Space. Topics will be introduced through movement-based improvisation exercises. Computational strategies will be examined through code examples. For each topic, students will create small movement studies with the aim of fully exploring how technology "intervenes" and changes the choreographic process.
+Over the course of the semester, we will cover 3 topic areas that correspond to 3 parameters of choreography: Pathways, The Body and Space. Topics will be introduced through movement-based improvisation exercises. Computational strategies will be examined through code examples. For each topic, students will create small movement studies with the aim of fully exploring how technology "intervenes" and changes the choreographic process.
 
-The class will culminate in a showing of student work. Final projects can either be in the form of an interactive installation or live performance.
+The class will culminate in a showing of student work. The final project will take the form of a live performance.
 
-This class runs in conjunction with a course in the Barnard/Columbia Dance Department and will comprise of students from both NYU and Barnard/Columbia. All classes will take place @NYU. Most weeks, the last hour of each class will be devoted to a separate technical lab for ITP students only.
+This class runs in conjunction with a course in the Barnard/Columbia Dance Department and will comprise of students from both NYU and Barnard/Columbia.
 
 Because course topics are organized around movement concepts, technical topics will be introduced and built upon week to week.
 - What do cameras see? What don't they see?
@@ -28,8 +30,8 @@ Because course topics are organized around movement concepts, technical topics w
 
 "Soft Skills" we will practice:
 - Sketching (as in drawing on paper) choreographic ideas.
-- Defining rule sets for movement.
-- Defining rules of interaction.
+- Designing and defining rule sets for movement.
+- Designing and defining rules of interaction.
 - Deconstructing choreography into parameters for code.
 - Extracting choreographic ideas from code.
 
@@ -39,8 +41,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### Programming Resources
 - [p5.js](http://p5js.org/) | [Reference](http://p5js.org/reference/) | [Web Editor](http://editor.p5js.org/)
 - [Coding Rainbow](https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
-- [Atom Editor](https://github.com/mimiyin/sense-me-move-me/wiki/Atom)
 - [Kinectron](https://github.com/lisajamhoury/kinectron)
+- [Atom Editor](https://github.com/mimiyin/sense-me-move-me/wiki/Atom)
 - [Delicode NI Mate](https://github.com/mimiyin/choreographic-interventions-s19/wiki/Delicode-NI-Mate)
 - [The Nature of Code Book](http://natureofcode.com/book/)
 
@@ -136,11 +138,11 @@ Each topic will be introduced through paper-based drawing exercises and code exa
          * Random Pathway with Controls: [Code](http://editor.p5js.org/move.mimi/sketches/ByBuJtIEz) | [Fullscreen](http://editor.p5js.org/embed/ByBuJtIEz)
 
 ### Assignment: Study No. 1 Random Pathways
-   * Choreograph a 15 - 180 second generative random pathway that contains 2 ideas. (You may either write your own code or use the interactive example.) 
-      * At least 1 parameter needs to change over time. 
+   * Choreograph a 15 - 180 second generative random pathway that contains 2 ideas. (You may either write your own code or use the interactive example.)
+      * At least 1 parameter needs to change over time.
       * Work in pairs. You should each choreograph a pathway on your own and then come together to create your final choreography. Use the [Random Pathway with Controls](http://editor.p5js.org/embed/ByBuJtIEz) to explore ideas.
       * Think about the linear pathways that are baked into Random Pathways.
-      * Discuss and **diagram** choreographic possibilities for how to interact with your pathway. 
+      * Discuss and **diagram** choreographic possibilities for how to interact with your pathway.
       * Post a link to the code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s19/wiki/Assignments#week-2-random-pathways)
    * Complete [Chapter 1.4-1.5](https://docs.google.com/document/d/1xRnvFgyshha6Tb7eTgs2HTDty515DIfkWb6leiZ2j2U/edit?usp=sharing) of the Workbook
 
@@ -175,10 +177,10 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
 ### Assignment: Study No. 2 Noisy and Circular Pathways
    * Choreograph a 15 - 180 second generative circular pathway in code with 2 ideas. It should be recognizably "circular" movement.
-      * At least 1 parameter needs to change over time. 
+      * At least 1 parameter needs to change over time.
       * Work in pairs. You should each choreograph a pathway on your own and then come together to create your final choreography. Use the [Circular Pathway with Controls](http://editor.p5js.org/embed/Sy7iKoIEf) to explore ideas.
       * Think about how "noisy" and "random" the pathway can get before it loses it's circularity.
-      * Discuss and **diagram** choreographic possibilities for how to interact with your pathway. 
+      * Discuss and **diagram** choreographic possibilities for how to interact with your pathway.
       * Post a link to the code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s19/wiki/Assignments#week-3-circular-pathways)
    * Complete [1.5a](https://docs.google.com/document/d/1xRnvFgyshha6Tb7eTgs2HTDty515DIfkWb6leiZ2j2U/edit?usp=sharing) of the Workbook
 
@@ -235,7 +237,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Heartbeat by Sarah Rudner: [About](https://www.youtube.com/watch?v=1CpPPrjjVNI) | [Full Piece](https://www.youtube.com/watch?v=eAVwr-BwGCk)
       * [Synchronous Objects](https://synchronousobjects.osu.edu/)
       * [Getting out of Fase](https://youtu.be/RTke1tQztpQ?t=185)
-      
+
    * Examples
       * [Get all the code in 1 folder](https://drive.google.com/file/d/1npCeofi5jiroG5WVlnGUURlp0ExGqOU0/view?usp=sharing)
       * [Switching Joints](https://editor.p5js.org/move.mimi/sketches/r9tbdwe30) | [Custom Joints List](https://editor.p5js.org/move.mimi/sketches/_YbQUQeLE)
@@ -341,7 +343,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Semi-exclusionary Square](https://editor.p5js.org/move.mimi/sketches/r186x1Dz4)
    * Hello Projection Mapping: [The Set-up Tutorial](https://docs.google.com/document/d/1AfvvrWhMHGnw0MrYqgiqzsV0DenL0p5vWmfQXM3Jp2U/edit?usp=sharing) | [The Code Tutorial](https://docs.google.com/document/d/1LRiMMuZEeP8klj9GwHv8eBclAnLrMqXvh_qrSldWehs/edit?usp=sharing) | [p5 Tutorial](https://docs.google.com/document/d/1b8FelamwrUIGWBpiycag3Jxyt6RHaUOjz0JxWzwJ6DU/edit?usp=sharing)
    * [Processing Base Examples](https://drive.google.com/file/d/1_yZ6JpO-zt14DCC9UCKTcvKHNymYPuGa/view?usp=sharing)
-   
+
 ### Assignment: Dynamic Spaces
    * [Design an interactive space.](https://docs.google.com/document/d/1VpfVVueUlGjyoeTmFRgcbd-1WwbsK5uUehwL7ECROqk/edit?usp=sharing) | [See sample.](https://drive.google.com/file/d/1DrW_gIApYh_MsW6u_Ts0X8HV5pXmNMXy/view?usp=sharing)
       * Extra credit: Prototype it in code.
