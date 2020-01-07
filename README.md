@@ -1,10 +1,10 @@
 # Choreographic Interventions Syllabus - Spring 2019
 
-- Spring 2020,
-   - Barnard: Wednesdays 1:10-2:25PM, Fridays 2-4PM or 2-5PM depending on the week.
-   - ITP: Fridays, 2-5PM
-- Locations: The Media Commons at 370 Jay Street, Brooklyn NY and The Movement Lab at Barnard College, Manhattan, NY
-- Detailed schedule for Times and Locations
+- Spring 2020, Wednesdays 1:10-2:25PM (Barnard-only), Fridays 2-5PM
+- Locations:
+   - The Media Commons at 370 Jay Street, Brooklyn NY
+   - The Movement Lab at Barnard College, Manhattan, NY
+- [Detailed schedule for Times and Locations]()
 - Instructors: Mimi Yin, mimi.yin@nyu.edu, NiNi Dongnier
 - [Office Hours Signup](https://itp.nyu.edu/inwiki/Signup/Mimi)
 
@@ -19,9 +19,8 @@ This class runs in conjunction with a course in the Barnard/Columbia Dance Depar
 Because course topics are organized around movement concepts, technical topics will be introduced and built upon week to week.
 - What do cameras see? What don't they see?
 - Skeletons, Depth Maps and Contours
-- 2D v. 3D
-- Mapping values
 - Working with position versus speed of movement
+- Mapping values
 - Position tracking
 - 2D Projection mapping
 - Computational approaches to choreographing pathways of motion
@@ -54,7 +53,9 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ***
 ***
 
-## Week 0: Introduction @Barnard W + F 12-1:30PM
+## Week 0: Introduction for Barnard Wednesday 1:10-2:25PM, Friday 2-4PM
+   * Hello!
+   * What is interaction?
    * Introduction to Computation and Interaction through Movement
    * Cartesian Plane, Linear Motion, Drawing with the Body with the Kinect
    * Resources
@@ -75,23 +76,35 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * [Watch videos 12, 14, 16, 18-20, 25, 26](https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)(95 minutes)
 
 
-## Week 1: Introduction @NYU Friday 3:20-6:15PM
+## Week 1: Introduction Friday 2-5PM (Everyone)
 
 ### Questions
    * Why are we here?
    * What is computational thinking? What is choreographic thinking?
-   * What is an intervention?
-   * What is interaction?
+   * What are different modes of interaction?
    * What are the parameters of choreography?
    * How is code an expressive medium?
 
 ### In-class
-   * Observe pathways of motion.
-   * Walking improv.
-   * Drawing with the mouse. Drawing with the body.
-   * Examples:
-      * [Drawing Lines](http://editor.p5js.org/move.mimi/sketches/ByPtNLI4z) | [Fullscreen](http://editor.p5js.org/embed/ByPtNLI4z) | 1-Mode-At-A-Time: [0](http://editor.p5js.org/move.mimi/sketches/SJwTOF8Ez) | [1](http://editor.p5js.org/move.mimi/sketches/HyNmKKL4f) | [2](http://editor.p5js.org/move.mimi/sketches/SkEk9KUNM) | [3](http://editor.p5js.org/move.mimi/sketches/ByPfqt84f)
-      * [Drawing a Trail](http://editor.p5js.org/move.mimi/sketches/H1flrLLVG) | [Fullscreen](http://editor.p5js.org/embed/H1flrLLVG)
+      * Walking improv.
+      * 1-on-1 walking duet.
+
+### Introduction to Pathways
+   * Can a pathway be expressive?
+   * What are all the different kinds of pathways?
+   * What are all the ways to interact with a pathway?
+   * How do you choreograph pathways in code?
+   * What can a line express?
+
+### In-class
+   * Interacting with a static line (tape)
+   * Interacting with a moving line
+
+### Resources
+   * Linear Pathways
+      * [Linear Pathway](http://editor.p5js.org/move.mimi/sketches/rJWBguUNf)
+      * [Linear Pathway - Deconstructed](http://editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
+
 
 ### Assignment
    * For background on approaches to movement improvisation:
@@ -101,94 +114,80 @@ Each topic will be introduced through paper-based drawing exercises and code exa
          * [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
          * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
       * Read chapter 2 of [Viewpoints](https://stilluntitledproject.files.wordpress.com/2014/11/anne-bogart-and-tina-landau-the-viewpoints-book.pdf).
-   * Complete [Chapter 1.0-1.3](https://docs.google.com/document/d/1xRnvFgyshha6Tb7eTgs2HTDty515DIfkWb6leiZ2j2U/edit?usp=sharing) of the Workbook
+   * Read and complete [Chapters 0](https://docs.google.com/document/d/1wJgAu3TKRZBt6dNulqIiDK0A3dag5t7I75sett32t-0/edit?usp=sharing) and [Chapter 1.0-1.3](https://docs.google.com/document/d/1XwMkW8i0w6ekI6rQErRdpMLPM7U-5FnJ_jcobAlbQVk/edit?usp=sharing) of the Workbook
 
 ***
 
-## Week 2: Pathways: Linear and Random()
+## Week 2: Pathways: Random()
 
 ### Questions
-   * Can a pathway be expressive?
-   * What are all the different kinds of pathways?
-   * What are all the ways to interact with a pathway?
-   * How do you choreograph pathways in code?
-   * The dramaturgy of a line?
    * Does random() feel random?
 
 ### In-class
-   * Deconstructing pathways through computation: linear, random()
-   * Interacting with a static pathway (rope)
-   * Interacting with moving pathways
-   * Resources
-      * [Bobby McFerrin](https://www.youtube.com/watch?v=DoNIOqUz9NM)
-      * [Pathways Tutorial](https://docs.google.com/document/d/1YsZ_6vcZ0FXrp_Bd0acECLyZfL7bsRNBAf1evvVJADI/edit?usp=sharing)
-   * Examples
-      * Drawing a Trail
-         * [Drawing a Trail](http://editor.p5js.org/move.mimi/sketches/H1flrLLVG) | [Fullscreen](http://editor.p5js.org/embed/H1flrLLVG)
-         * [Easing](https://editor.p5js.org/move.mimi/sketches/H1NWIIL4z)
-      * Linear Pathways
-         * [Linear Pathway](http://editor.p5js.org/move.mimi/sketches/rJWBguUNf)
-         * [Linear Pathway - Deconstructed](http://editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
-         * Linear Pathway with Controls: [Code](https://editor.p5js.org/move.mimi/sketches/rkMpbedVM) | [Fullscreen](https://editor.p5js.org/move.mimi/embed/rkMpbedVM)
-         * [Moving in a Line](https://editor.p5js.org/move.mimi/sketches/uB9bQRVc7) | [Fullscreen](https://editor.p5js.org/move.mimi/embed/uB9bQRVc7)
-      * Random
-         * [Random Pathway](http://editor.p5js.org/move.mimi/sketches/HkL0VOUVf)
-         * [Graphing Random](https://editor.p5js.org/move.mimi/sketches/S1yCHuU4M)
-         * [Random Intervals](http://alpha.editor.p5js.org/move.mimi/sketches/SkwF9OLEM) | [Fullscreen](http://alpha.editor.p5js.org/move.mimi/embed/SkwF9OLEM)
-         * Random Pathway with Controls: [Code](http://editor.p5js.org/move.mimi/sketches/ByBuJtIEz) | [Fullscreen](http://editor.p5js.org/embed/ByBuJtIEz)
+   * Random facings.
+   * Trios: Activating random spots.
+   * Interacting with random spots on the floor.
+
+### Resources
+   * [Bobby McFerrin](https://www.youtube.com/watch?v=DoNIOqUz9NM)
+   * [Pathways Tutorial](https://docs.google.com/document/d/1YsZ_6vcZ0FXrp_Bd0acECLyZfL7bsRNBAf1evvVJADI/edit?usp=sharing)
+   * random() Examples
+      * [Random Pathway](http://editor.p5js.org/move.mimi/sketches/HkL0VOUVf)
+      * [Graphing Random](https://editor.p5js.org/move.mimi/sketches/S1yCHuU4M)
+      * [Random Intervals](http://alpha.editor.p5js.org/move.mimi/sketches/SkwF9OLEM) | [Fullscreen](http://alpha.editor.p5js.org/move.mimi/embed/SkwF9OLEM)
+      * Random Pathway with Controls: [Code](http://editor.p5js.org/move.mimi/sketches/ByBuJtIEz) | [Fullscreen](http://editor.p5js.org/embed/ByBuJtIEz)
+      * [Random Positions](https://editor.p5js.org/move.mimi/sketches/arR72_jfr) | [Fullscreen](https://editor.p5js.org/move.mimi/embed/arR72_jfr)
 
 ### Assignment: Study No. 1 Random Pathways
-   * Choreograph a 15 - 180 second generative random pathway that contains 2 ideas. (You may either write your own code or use the interactive example.)
-      * At least 1 parameter needs to change over time.
-      * Work in pairs. You should each choreograph a pathway on your own and then come together to create your final choreography. Use the [Random Pathway with Controls](http://editor.p5js.org/embed/ByBuJtIEz) to explore ideas.
+   * Choreograph a 30 - 180 second generative random pathway that contains 2 ideas.
+      * At least 1 parameter of random() needs to change over time.
+      * Work in pairs or trios. You should each choreograph a pathway on your own and then come together to create your final choreography. Use the [Random Pathway with Controls](http://editor.p5js.org/embed/ByBuJtIEz) to explore ideas.
       * Think about the linear pathways that are baked into Random Pathways.
       * Discuss and **diagram** choreographic possibilities for how to interact with your pathway.
-      * Post a link to the code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s19/wiki/Assignments#week-2-random-pathways)
-   * Complete [Chapter 1.4-1.5](https://docs.google.com/document/d/1xRnvFgyshha6Tb7eTgs2HTDty515DIfkWb6leiZ2j2U/edit?usp=sharing) of the Workbook
+      * Post a link to the code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-2-random-pathways)
+   * Complete [Chapter 1.5](https://docs.google.com/document/d/1XwMkW8i0w6ekI6rQErRdpMLPM7U-5FnJ_jcobAlbQVk/edit?usp=sharing) of the Workbook
 
 
 ***
 
-## Week 3: Pathways: Noisy and Circular
-   * Workshop Study No. 1: Linear and Random Pathways.
+## Week 3: Pathways: Circular Pathways
+   * Workshop Study No. 1: Random Pathways.
 
 ### Questions
-   * What does uncertainty look like?
-   * The paradox that is a circle?
+   * The paradox that is a circle.
 
 ### In-class
-   * Deconstructing pathways through computation: noisy, circular
-   * Examples
-      * Noisy
-         * [Bobby McFerrin](https://www.youtube.com/watch?v=DoNIOqUz9NM)
-         * [Gaga](https://www.youtube.com/watch?v=OGPG1QL1vJc)
-         * [Noisy Pathway](http://editor.p5js.org/move.mimi/sketches/ryi5E984G)
-         * [Graphing Noise](http://editor.p5js.org/move.mimi/sketches/H16ZQ98Ez)
-         * Noisy with Controls: [Code](http://editor.p5js.org/move.mimi/sketches/r11eUqI4G) | [Fullscreen](http://editor.p5js.org/embed/r11eUqI4G)
-      * Circular
-         * [Circular Pathway](http://editor.p5js.org/move.mimi/sketches/rJSP_5ING)
-         * [Circle with Tangents](http://editor.p5js.org/move.mimi/sketches/r1HaDcLEz)
-         * [Circles and Sin/Cos](http://editor.p5js.org/move.mimi/sketches/rJ_vtcUNz)
-         * Circular with Controls: [Code](http://editor.p5js.org/move.mimi/sketches/Sy7iKoIEf) | [Fullscreen](http://editor.p5js.org/embed/Sy7iKoIEf)
-         * [Polar Roses](https://en.wikipedia.org/wiki/Rose_(mathematics))
-         * [Polar Rose-ish](http://editor.p5js.org/move.mimi/sketches/HJTDNYKVf) | [Polar Rose Shape](https://editor.p5js.org/move.mimi/sketches/gO8ew1q-Y)
-         * [Anne Teresa de Keersmaeker: Violin Fase](https://www.youtube.com/watch?v=i36Qhn7NhoA)
-         * [Pina Bausch: La Prima Vez](https://www.youtube.com/watch?v=mrHt6Ob9-3A)
+   * Back to back blind circle duet.
+   * 4 ways to walk in a circle: forward, backward, sideways left and right.
+   * Circular floor work.
 
-### Assignment: Study No. 2 Noisy and Circular Pathways
-   * Choreograph a 15 - 180 second generative circular pathway in code with 2 ideas. It should be recognizably "circular" movement.
-      * At least 1 parameter needs to change over time.
+### Resources
+   * Video
+      * [Anne Teresa de Keersmaeker: Violin Fase](https://www.youtube.com/watch?v=i36Qhn7NhoA)
+      * [Contemporary Dance Floorwork](https://www.youtube.com/watch?v=nQkCGsBI-aY)
+      * [Shen Wei Arts: Connect Transfer](https://www.youtube.com/watch?v=xGeXlD-1Pd0)
+      * [Pina Bausch: La Prima Vez](https://www.youtube.com/watch?v=mrHt6Ob9-3A)
+   * Circular Pathway Examples
+      * [Circular Pathway](http://editor.p5js.org/move.mimi/sketches/rJSP_5ING)
+      * [Circle with Tangents](http://editor.p5js.org/move.mimi/sketches/r1HaDcLEz)
+      * [Circles and Sin/Cos](http://editor.p5js.org/move.mimi/sketches/rJ_vtcUNz)
+      * Circular Pathway with Controls: [Code](http://editor.p5js.org/move.mimi/sketches/Sy7iKoIEf) | [Fullscreen](http://editor.p5js.org/embed/Sy7iKoIEf)
+      * [Polar Roses](https://en.wikipedia.org/wiki/Rose_(mathematics))
+      * [Polar Rose-ish](http://editor.p5js.org/move.mimi/sketches/HJTDNYKVf) | [Polar Rose Shape](https://editor.p5js.org/move.mimi/sketches/gO8ew1q-Y)
+
+### Assignment: Study No. 2 Circular Pathways
+   * Choreograph a 30 - 180 second generative circular pathway in code with 2 ideas. It should be recognizably "circular" movement.
+      * At least 1 parameter of the circle needs to change over time.
       * Work in pairs. You should each choreograph a pathway on your own and then come together to create your final choreography. Use the [Circular Pathway with Controls](http://editor.p5js.org/embed/Sy7iKoIEf) to explore ideas.
-      * Think about how "noisy" and "random" the pathway can get before it loses it's circularity.
       * Discuss and **diagram** choreographic possibilities for how to interact with your pathway.
-      * Post a link to the code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s19/wiki/Assignments#week-3-circular-pathways)
+      * Post a link to the code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-3-circular-pathways)
    * Complete [1.5a](https://docs.google.com/document/d/1xRnvFgyshha6Tb7eTgs2HTDty515DIfkWb6leiZ2j2U/edit?usp=sharing) of the Workbook
 
    ***
 
-## Week 4: The Body - Architecture
+## Week 4: The Body
 
-   * Workshop Study No. 2: Noisy and Circular Pathways.
+   * Workshop Study No. 2: Circular Pathways.
 
 ### Questions
    * What makes a body recognizably human?
@@ -204,7 +203,6 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Kinect
          * [Hello Kinect Tutorial](https://docs.google.com/document/d/1HrrNaOElv_dlVhkSGX1HxrUk4yp9yb48253uWurIEKE/edit?usp=sharing)
          * [Kinect Skeleton with Bones](https://editor.p5js.org/move.mimi/sketches/B1K5tsmM4)
-         * Delicode NI Mate: [Processing](https://github.com/mimiyin/choreographic-interventions-s19/wiki/Delicode-NI-Mate) | [p5.js](https://github.com/louiselessel/CI_W5)
 
 ### Assignment
    * Read Chapter 7 of Dynamic Alignment: [Google Books](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false) | [PDF](https://drive.google.com/file/d/0B_lnhZP0dCt8LVZMRXlqNFFQaFk/view?usp=sharing)
@@ -214,11 +212,11 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
       * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
    * Complete sections 2.0-2.2 of [Chapter 2 of the Workbook](https://docs.google.com/document/d/1O8ldKa-SI4_B8D1vVtIItW5kB_nzZJpxwO_7Evi6iCU/edit?usp=sharing)
-   * Collect 10 very different representations of the human form. [Add them to this folder on Google Drive.](https://drive.google.com/drive/folders/1cszYBN9mho9QzjzieQGk-Ghw-UOCBH3b?usp=sharing)
+   * Collect 10 very different representations of the human form. [Add them to this folder on Google Drive.](https://drive.google.com/drive/folders/1oGIzWzfq3ngn5gF0YGWlFYhApL5KGBzK?usp=sharing)
 
 ***
 
-## Week 5: The Body - Architecture (cont'd) and Substance
+## Week 5: The Body (cont'd)
 
 ### Questions
    * How can we re-architect the body?
@@ -226,28 +224,24 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * How can a body choreograph interaction? How can interaction choreograph a body?
 
 ### In-class
-   * Re-architecture improv.
-   * Substance improv.
-   * Hooking up generative pathways to distance and speed.
+   * Re-architecture improv: Solo, Duet, Trio.
+   * Driving interaction through distance and speed.
       * Calculating the distance between joints.
       * Calculating speed of movement.
    * Resources
-      * [Bodies We Collected](https://drive.google.com/drive/folders/1cszYBN9mho9QzjzieQGk-Ghw-UOCBH3b?usp=sharing)
+      * [The Bodies We Collected](https://drive.google.com/drive/folders/1oGIzWzfq3ngn5gF0YGWlFYhApL5KGBzK?usp=sharing)
       * [The Richards](https://docs.google.com/presentation/d/1ztykeqBON9ZEDjL6AHBjp0GJUP5C6Ut2cjHVWAsyh2w/edit?usp=sharing)
-      * Heartbeat by Sarah Rudner: [About](https://www.youtube.com/watch?v=1CpPPrjjVNI) | [Full Piece](https://www.youtube.com/watch?v=eAVwr-BwGCk)
-      * [Synchronous Objects](https://synchronousobjects.osu.edu/)
-      * [Getting out of Fase](https://youtu.be/RTke1tQztpQ?t=185)
 
    * Examples
       * [Get all the code in 1 folder](https://drive.google.com/file/d/1npCeofi5jiroG5WVlnGUURlp0ExGqOU0/view?usp=sharing)
       * [Switching Joints](https://editor.p5js.org/move.mimi/sketches/r9tbdwe30) | [Custom Joints List](https://editor.p5js.org/move.mimi/sketches/_YbQUQeLE)
-      * [Drawing a Trail](http://editor.p5js.org/move.mimi/sketches/H1flrLLVG) | [Drawing a Trail with Joint](https://editor.p5js.org/move.mimi/sketches/rkji-ofz4)
-      * [Distance between joints](https://editor.p5js.org/move.mimi/sketches/rJENqsmGV)
+      * [Distance between different joints](https://editor.p5js.org/move.mimi/sketches/rJENqsmGV) | [Distance between same joint on different skeletons](COMING SOON)
       * [Speed of joint](https://editor.p5js.org/move.mimi/sketches/Byx3G3XG4) | [Speed with Multiple Skeletons](https://editor.p5js.org/move.mimi/sketches/9isHw8FNk)
       * [Speeds of joints](https://editor.p5js.org/move.mimi/sketches/SkAcS2QGE)
+      * Audio Examples: [Triggering sounds]() | [Volume]() | [Pitch]()
 
 #### Assignment: Study No. 3 The Joint Dance.
-   * Hook up the joints of the skeleton to interactive media. You can continue to work with pathways or explore other mediums: video, sound, text. [Upload your code here](https://drive.google.com/drive/folders/1K9PzgRpF_8LOja82zmM4KGsyrltfecZD?usp=sharing)
+   * Create a duet. Hook up the joints of the 2 skeletons to interact with sound. [Upload your code here](https://drive.google.com/drive/folders/1K9PzgRpF_8LOja82zmM4KGsyrltfecZD?usp=sharing)
    * Bring a piece of clothing that alters (confines, expands, distorts) your body to class next week. Look here for inspiration:
       * [Danse Des Masques](https://www.youtube.com/watch?v=mpOdxI1owdQ)
       * [Martha Graham: Lamentations and Satyric Song](https://www.youtube.com/watch?v=npSXDzqwFJg)
@@ -259,20 +253,13 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
 ## Week 6: The Body | Form Mirrors
 
-   * Workshop interactive pathways.
+   * Workshop The Joint Dance.
 
 ### Questions
    * How do mirrors change the way we move?
 
 ### In-class
    * Clothing improv.
-   * Play with Mirrors
-      * Visualizing the sensation of pins and needles with Silhouettes
-      * Morphing with Depth Map
-      * Morphing over time with slit-scan video
-      * 2D wire body
-      * The Gumby Effect: Morphing body contours.
-      * 3D bodies to shift your center of gravity
    * Resources
       * [Bodies We Collected](https://drive.google.com/drive/folders/1cszYBN9mho9QzjzieQGk-Ghw-UOCBH3b?usp=sharing)
       * [XYZT](https://www.am-cb.net/projets/xyzt)
@@ -287,15 +274,12 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Tutus: Romantic v. Pancake](https://en.wikipedia.org/wiki/Tutu_(clothing))
       * Rei Kawakubo: Shifting your center of gravity. [Scenario by Merce Cunningham](https://www.youtube.com/watch?v=MBlzeehZIeE)
       * Examples:
-         * [Hello Processing](https://docs.google.com/document/d/156GyF3nPfyVun2Jt2wyNer7sVHBoriRH25RgsQ_-l5o/edit?usp=sharing)
-         * [How to run Processing examples for Windows PC](https://docs.google.com/document/d/1uOnxJmxBUt-DNF7opgRDzD8m3_yUFHatE2wG8Oyyrnw/edit?usp=sharing)
          * [Slit-scan Video](https://editor.p5js.org/dansakamoto/sketches/H1s4fymqQ)
          * [Kinect2 Examples for Processing](https://drive.google.com/drive/folders/15qNBRQ0W_6jq3gP3EzyUpGK7Nu9WvpUy?usp=sharing)
 
 ### Assignment: Study No. 4 The Mirror Dance
    * Work on your own. Create a [slit-scan](https://editor.p5js.org/dansakamoto/embed/H1s4fymqQ) dance and perform it 2x. Screen record it. Include both the resulting slit-scan and your actual face/body in the screen recording. Upload your recording to [this folder](https://drive.google.com/drive/folders/1wB8bkjVXp1jtARURPohwUYl3Unq2Q1UT?usp=sharing).
       * How to screen record: [Mac](https://support.apple.com/guide/quicktime-player/record-your-screen-qtp97b08e666/mac) | [Windows](https://www.onmsft.com/how-to/how-to-make-a-windows-10-screen-recording-without-installing-any-software)
-   * Please bring your piece of clothing next week!
    * Complete [Chapter 3.0-3.3](https://docs.google.com/document/d/1UQBgsK0aKmQgeI_90evKBsHhaOGN-iLdET82-cNUcIk/edit?usp=sharing) of the Workbook   
    * Watch: Jiri Kylian | NDT : [Sweet Dreams](http://www.numeridanse.tv/en/video/1046_sweet-dreams)
       * What are all the ways in which Kylian is working with space? How are the spaces defined?
@@ -304,8 +288,6 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ***
 
 ## Week 7: Space | Boundaries and Divisions
-
-   * Workshop a couple of mirrors.
 
 ### Questions
    * What are the parameters of space?
@@ -316,13 +298,12 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * What's the difference between a division and a boundary?
 
 ### In-class
-   * [Moving Bezier](http://alpha.editor.p5js.org/mimi/sketches/Hkbojc0Ie)
    * [Kazimir Malevich](https://drive.google.com/drive/folders/0B_lnhZP0dCt8ek8wbVRzM18wcnM?usp=sharing)
-   * Interacting with Divisions / Boundaries / Areas / Terrains
+   * Interacting with Divisions / Boundaries / Areas
       * [Grid](https://editor.p5js.org/move.mimi/embed/rkqzUaPfN)
       * [Moving Bisect](https://editor.p5js.org/move.mimi/embed/ryEOkt8cM)
       * [Growing Circle](https://editor.p5js.org/move.mimi/embed/DTQLAvI3k)
-      * [Moving Trisect](https://editor.p5js.org/move.mimi/embed/ulK2W-T_7)
+      * [Moving Triptych](https://editor.p5js.org/move.mimi/sketches/Ymvrd03ZB) | [Fullscreen](https://editor.p5js.org/move.mimi/embed/Ymvrd03ZB)
 
 ### Assignment: Dynamic Spaces
    * Create a space that changes.
@@ -345,9 +326,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * [Processing Base Examples](https://drive.google.com/file/d/1_yZ6JpO-zt14DCC9UCKTcvKHNymYPuGa/view?usp=sharing)
 
 ### Assignment: Dynamic Spaces
-   * [Design an interactive space.](https://docs.google.com/document/d/1VpfVVueUlGjyoeTmFRgcbd-1WwbsK5uUehwL7ECROqk/edit?usp=sharing) | [See sample.](https://drive.google.com/file/d/1DrW_gIApYh_MsW6u_Ts0X8HV5pXmNMXy/view?usp=sharing)
-      * Extra credit: Prototype it in code.
-   * Fill out this survey about who you want to work with by Monday Apr 1: [ITP](https://goo.gl/forms/D9ZJyq3d4DDuAAnJ2) | [Barnard/Columbia](https://goo.gl/forms/rJwq5nZV5kZ7ODuQ2)
+   * Extra credit: [Design an interactive space as a storyboard and in code.](https://docs.google.com/document/d/1VpfVVueUlGjyoeTmFRgcbd-1WwbsK5uUehwL7ECROqk/edit?usp=sharing) | [See sample.](https://drive.google.com/file/d/1DrW_gIApYh_MsW6u_Ts0X8HV5pXmNMXy/view?usp=sharing)
+   * Fill out this survey about who you want to work with by Monday Mar 30: [ITP](https://goo.gl/forms/D9ZJyq3d4DDuAAnJ2) | [Barnard/Columbia](https://goo.gl/forms/rJwq5nZV5kZ7ODuQ2)
    * Brainstorm what you'd like to explore in your final project. [Please see guidelines and example.](https://github.com/mimiyin/choreographic-interventions-s19/wiki/Brainstorming-Guidelines)
 
 ## Project Development: Weeks 9, 10, 11
@@ -356,14 +336,14 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### Week 9 Assignment
    * Collect source material this week: Sound, visuals, video, choreography, text, diagrams, drawings, storyboards and stick them in [your folder](https://drive.google.com/drive/folders/16UK7YpFvYBepmJH7AlqXUU5NVLXNvXrq?usp=sharing).
    * Prepare material to show in class: 3 choreographic ideas. 1 sketch. (You can make more than that.)
-      * [Sign-up for a timeslot to work and post your sketches here](https://github.com/mimiyin/choreographic-interventions-s19/wiki/Assignments)
+      * [Sign-up for a timeslot to work and post your sketches here](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments)
 
 Over the next 4 weeks, in groups of 3-4, create a movement-based interactive work that explores one or more modes of interaction and one or more of parameters of choreography from this course. The work can take the form of an installation or a performance. Installations can be time-based or persistent with no definitive start or end time. The only requirement is that the choreography must be interactive, meaning the performers are making choreographic decisions in real-time. This doesn’t mean there is no element of pre-set choreography, however there must be room in the choreographic structure for individual decision-making. You will have a maximum of 10 minutes to show your work. Each group will consist of 1-2 students from ITP and 1-2 students from Barnard.
 
 ## Showing: Week 12
 
 # Course Description
-This course re-conceives interactive media as a form of choreographic intervention. Instead of asking how moving bodies can control media, we will ask how interactive systems can influence movement. How do you make someone feel soft inside? How do you shake an entire room? How do you orchestrate duets between strangers?
+This course re-conceives interactive media as a form of choreographic intervention. Instead of asking how moving bodies can control media, we will ask how rules of interaction can structure the composition of a dance.
 
 To accomplish this, the class facilitates a semester-long collaboration between ITP students and dancers from the Barnard/Columbia Dance Department. Choreographers will learn to apply computational thinking to choreography and creative coders will learn to apply choreographic thinking to computation. To whatever extent possible, we will attempt to embody code.
 
