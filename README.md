@@ -35,7 +35,7 @@ Because course topics are organized around movement concepts, technical topics w
 - Extracting choreographic ideas from code.
 
 ### Workbook
-Each topic will be introduced through paper-based drawing exercises and code examples. [Google Drive Link](https://drive.google.com/open?id=13CwspYHL_3_LlYRuY5fkNC0uclFj86rZ)
+Each topic will be introduced through paper-based drawing exercises and code examples. [Google Drive Link](https://drive.google.com/drive/folders/1EnB6lxoawC9muXulMDiB2n_0ipdnyelR?usp=sharing)
 
 ### Programming Resources
 - [p5.js](http://p5js.org/) | [Reference](http://p5js.org/reference/) | [Web Editor](http://editor.p5js.org/)
@@ -181,7 +181,6 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Work in pairs. You should each choreograph a pathway on your own and then come together to create your final choreography. Use the [Circular Pathway with Controls](http://editor.p5js.org/embed/Sy7iKoIEf) to explore ideas.
       * Discuss and **diagram** choreographic possibilities for how to interact with your pathway.
       * Post a link to the code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-3-circular-pathways)
-   * Complete [1.5a](https://docs.google.com/document/d/1xRnvFgyshha6Tb7eTgs2HTDty515DIfkWb6leiZ2j2U/edit?usp=sharing) of the Workbook
 
    ***
 
@@ -211,7 +210,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Pick 5 of 23 videos that start with Forsythe-Lines
       * [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
       * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
-   * Complete sections 2.0-2.2 of [Chapter 2 of the Workbook](https://docs.google.com/document/d/1O8ldKa-SI4_B8D1vVtIItW5kB_nzZJpxwO_7Evi6iCU/edit?usp=sharing)
+   * Complete sections 2.0-2.2 of [Chapter 2 of the Workbook](https://docs.google.com/document/d/1U9364QQRfzc_Ijsl-HefyRDAHN8M7_FpZYjrzu3UYoo/edit?usp=sharing)
    * Collect 10 very different representations of the human form. [Add them to this folder on Google Drive.](https://drive.google.com/drive/folders/1oGIzWzfq3ngn5gF0YGWlFYhApL5KGBzK?usp=sharing)
 
 ***
@@ -280,7 +279,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### Assignment: Study No. 4 The Mirror Dance
    * Work on your own. Create a [slit-scan](https://editor.p5js.org/dansakamoto/embed/H1s4fymqQ) dance and perform it 2x. Screen record it. Include both the resulting slit-scan and your actual face/body in the screen recording. Upload your recording to [this folder](https://drive.google.com/drive/folders/1wB8bkjVXp1jtARURPohwUYl3Unq2Q1UT?usp=sharing).
       * How to screen record: [Mac](https://support.apple.com/guide/quicktime-player/record-your-screen-qtp97b08e666/mac) | [Windows](https://www.onmsft.com/how-to/how-to-make-a-windows-10-screen-recording-without-installing-any-software)
-   * Complete [Chapter 3.0-3.3](https://docs.google.com/document/d/1UQBgsK0aKmQgeI_90evKBsHhaOGN-iLdET82-cNUcIk/edit?usp=sharing) of the Workbook   
+   * Complete [Chapter 3.0-3.3](https://drive.google.com/open?id=1ueGcKiBvVp2HrAux6cHHyAWYcynpyXLiIQFlgpG4d48) of the Workbook   
    * Watch: Jiri Kylian | NDT : [Sweet Dreams](http://www.numeridanse.tv/en/video/1046_sweet-dreams)
       * What are all the ways in which Kylian is working with space? How are the spaces defined?
       * Why angular spaces? Why sharp edges? How would it be different if he used more traditional spotlights?
