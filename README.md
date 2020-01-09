@@ -19,9 +19,8 @@ This class runs in conjunction with a course in the Barnard/Columbia Dance Depar
 Because course topics are organized around movement concepts, technical topics will be introduced and built upon week to week.
 - What do cameras see? What don't they see?
 - Skeletons, Depth Maps and Contours
-- Working with position versus speed of movement
-- Mapping values
-- Position tracking
+- Scaling and Mapping values
+- 2D Position tracking
 - 2D Projection mapping
 - Computational approaches to choreographing pathways of motion
 - Computational approaches to dividing and defining space
@@ -61,6 +60,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Resources
       * [Ballet Floor Patterns](https://www.google.com/search?q=ballet+choreography+floor+patterns&tbs=rimg:CaSoyv0aXWo3Ijh72ROhKuXMGUx3xbXsB_14rm8ZYzpknpDQ-75QEPYJk7uYcFDq0m2yRZOtszD0ba1CIOL5uBHUroyoSCXvZE6Eq5cwZEUcOebFYpO65KhIJTHfFtewH_1isR_18xNlr8FXPAqEgmbxljOmSekNBFhfRaa_1-gyGioSCT7vlAQ9gmTuEezfSXYJt1SuKhIJ5hwUOrSbbJERw_1Bykue1YPAqEglk62zMPRtrUBHF4LtvQWXXnyoSCYg4vm4EdSujEZGA9yyJ0QsV,isz:l&tbm=isch&source=lnt&sa=X&ved=0ahUKEwi_iueEpYngAhWoVN8KHSFPAN8QpwUIIA&biw=1321&bih=767&dpr=2#imgrc=lVU5krsz5qXwUM:)
       * [Ghostcatching by Bill T. Jones - 1999](https://www.youtube.com/watch?v=aL5w_b-F8ig)
+      * [GLOW - Chunky Move, 2006 - ](https://www.youtube.com/watch?v=2AautwIOON8)
    * Examples
       * [Linear Pathway](http://editor.p5js.org/move.mimi/sketches/rJWBguUNf)
       * [Linear Pathway - Deconstructed](http://editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
@@ -127,6 +127,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Random facings.
    * Trios: Activating random spots.
    * Interacting with random spots on the floor.
+   * Storyboarding Random Pathways study.
 
 ### Resources
    * [Bobby McFerrin](https://www.youtube.com/watch?v=DoNIOqUz9NM)
@@ -141,9 +142,10 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### Assignment: Study No. 1 Random Pathways
    * Choreograph a 30 - 180 second generative random pathway that contains 2 ideas.
       * At least 1 parameter of random() needs to change over time.
-      * Work in pairs or trios. You should each choreograph a pathway on your own and then come together to create your final choreography. Use the [Random Pathway with Controls](http://editor.p5js.org/embed/ByBuJtIEz) to explore ideas.
+      * Use the [Random Pathway with Controls](http://editor.p5js.org/embed/ByBuJtIEz) to explore ideas.
       * Think about the linear pathways that are baked into Random Pathways.
       * Discuss and **diagram** choreographic possibilities for how to interact with your pathway.
+      * Post a draft of your code by Wednesday morning to be tested at Barnard at noon.
       * Post a link to the code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-2-random-pathways)
    * Complete [Chapter 1.5](https://docs.google.com/document/d/1XwMkW8i0w6ekI6rQErRdpMLPM7U-5FnJ_jcobAlbQVk/edit?usp=sharing) of the Workbook
 
@@ -157,8 +159,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * The paradox that is a circle.
 
 ### In-class
-   * Back to back blind circle duet.
-   * 4 ways to walk in a circle: forward, backward, sideways left and right.
+   * Blind duet.
+   * 4 ways to walk in a circle: Front, Back, Right, Left.
    * Circular floor work.
 
 ### Resources
@@ -178,8 +180,9 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### Assignment: Study No. 2 Circular Pathways
    * Choreograph a 30 - 180 second generative circular pathway in code with 2 ideas. It should be recognizably "circular" movement.
       * At least 1 parameter of the circle needs to change over time.
-      * Work in pairs. You should each choreograph a pathway on your own and then come together to create your final choreography. Use the [Circular Pathway with Controls](http://editor.p5js.org/embed/Sy7iKoIEf) to explore ideas.
+      * Use the [Circular Pathway with Controls](http://editor.p5js.org/embed/Sy7iKoIEf) to explore ideas.
       * Discuss and **diagram** choreographic possibilities for how to interact with your pathway.
+      * Post a draft of your code by Wednesday morning to be tested at Barnard at noon.
       * Post a link to the code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-3-circular-pathways)
 
    ***
@@ -223,20 +226,15 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * How can a body choreograph interaction? How can interaction choreograph a body?
 
 ### In-class
-   * Re-architecture improv: Solo, Duet, Trio.
-   * Driving interaction through distance and speed.
-      * Calculating the distance between joints.
-      * Calculating speed of movement.
+   * Statue improv: Duets and Trios.
+   * Driving interaction through distance.
    * Resources
       * [The Bodies We Collected](https://drive.google.com/drive/folders/1oGIzWzfq3ngn5gF0YGWlFYhApL5KGBzK?usp=sharing)
       * [The Richards](https://docs.google.com/presentation/d/1ztykeqBON9ZEDjL6AHBjp0GJUP5C6Ut2cjHVWAsyh2w/edit?usp=sharing)
 
    * Examples
-      * [Get all the code in 1 folder](https://drive.google.com/file/d/1npCeofi5jiroG5WVlnGUURlp0ExGqOU0/view?usp=sharing)
       * [Switching Joints](https://editor.p5js.org/move.mimi/sketches/r9tbdwe30) | [Custom Joints List](https://editor.p5js.org/move.mimi/sketches/_YbQUQeLE)
       * [Distance between different joints](https://editor.p5js.org/move.mimi/sketches/rJENqsmGV) | [Distance between same joint on different skeletons](COMING SOON)
-      * [Speed of joint](https://editor.p5js.org/move.mimi/sketches/Byx3G3XG4) | [Speed with Multiple Skeletons](https://editor.p5js.org/move.mimi/sketches/9isHw8FNk)
-      * [Speeds of joints](https://editor.p5js.org/move.mimi/sketches/SkAcS2QGE)
       * Audio Examples: [Triggering sounds]() | [Volume]() | [Pitch]()
 
 #### Assignment: Study No. 3 The Joint Dance.
@@ -276,9 +274,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
          * [Slit-scan Video](https://editor.p5js.org/dansakamoto/sketches/H1s4fymqQ)
          * [Kinect2 Examples for Processing](https://drive.google.com/drive/folders/15qNBRQ0W_6jq3gP3EzyUpGK7Nu9WvpUy?usp=sharing)
 
-### Assignment: Study No. 4 The Mirror Dance
-   * Work on your own. Create a [slit-scan](https://editor.p5js.org/dansakamoto/embed/H1s4fymqQ) dance and perform it 2x. Screen record it. Include both the resulting slit-scan and your actual face/body in the screen recording. Upload your recording to [this folder](https://drive.google.com/drive/folders/1wB8bkjVXp1jtARURPohwUYl3Unq2Q1UT?usp=sharing).
-      * How to screen record: [Mac](https://support.apple.com/guide/quicktime-player/record-your-screen-qtp97b08e666/mac) | [Windows](https://www.onmsft.com/how-to/how-to-make-a-windows-10-screen-recording-without-installing-any-software)
+### Assignment
    * Complete [Chapter 3.0-3.3](https://drive.google.com/open?id=1ueGcKiBvVp2HrAux6cHHyAWYcynpyXLiIQFlgpG4d48) of the Workbook   
    * Watch: Jiri Kylian | NDT : [Sweet Dreams](http://www.numeridanse.tv/en/video/1046_sweet-dreams)
       * What are all the ways in which Kylian is working with space? How are the spaces defined?
@@ -306,7 +302,6 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
 ### Assignment: Dynamic Spaces
    * Create a space that changes.
-
 
 ## Week 8: Space | Defining Space With Bodies
 
