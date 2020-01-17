@@ -19,6 +19,7 @@ This class runs in conjunction with a course in the Barnard/Columbia Dance Depar
 Because course topics are organized around movement concepts, technical topics will be introduced and built upon week to week.
 - What do cameras see? What don't they see?
 - Skeletons, Depth Maps and Contours
+- Position versus speed of movement
 - Scaling and Mapping values
 - 2D Position tracking
 - 2D Projection mapping
@@ -39,10 +40,10 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### Programming Resources
 - [p5.js](http://p5js.org/) | [Reference](http://p5js.org/reference/) | [Web Editor](http://editor.p5js.org/)
 - [Coding Rainbow](https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
-- [Kinectron](https://github.com/lisajamhoury/kinectron)
+- [Kinectron](https://kinectron.github.io/) | [Code](https://github.com/lisajamhoury/kinectron)
 - [Atom Editor](https://github.com/mimiyin/sense-me-move-me/wiki/Atom)
+- [Git](https://opensource.com/article/18/1/step-step-guide-git)
 - [Delicode NI Mate](https://github.com/mimiyin/choreographic-interventions-s19/wiki/Delicode-NI-Mate)
-- [The Nature of Code Book](http://natureofcode.com/book/)
 
 ### Dance + Movement Resources
 - Select chapters from [The Viewpoints Book](http://www.amazon.com/The-Viewpoints-Book-Practical-Composition/dp/1559362413) | [PDF](https://stilluntitledproject.files.wordpress.com/2014/11/anne-bogart-and-tina-landau-the-viewpoints-book.pdf) | [NYU Library](http://bobcat.library.nyu.edu/primo-explore/fulldisplay?docid=nyu_aleph000288171&context=L&vid=NYU&search_scope=all&tab=all&lang=en_US)
@@ -58,8 +59,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Introduction to Computation and Interaction through Movement
    * Cartesian Plane, Linear Motion, Drawing with the Body with the Kinect
    * Resources
-      * [Ballet Floor Patterns](https://www.google.com/search?q=ballet+choreography+floor+patterns&tbs=rimg:CaSoyv0aXWo3Ijh72ROhKuXMGUx3xbXsB_14rm8ZYzpknpDQ-75QEPYJk7uYcFDq0m2yRZOtszD0ba1CIOL5uBHUroyoSCXvZE6Eq5cwZEUcOebFYpO65KhIJTHfFtewH_1isR_18xNlr8FXPAqEgmbxljOmSekNBFhfRaa_1-gyGioSCT7vlAQ9gmTuEezfSXYJt1SuKhIJ5hwUOrSbbJERw_1Bykue1YPAqEglk62zMPRtrUBHF4LtvQWXXnyoSCYg4vm4EdSujEZGA9yyJ0QsV,isz:l&tbm=isch&source=lnt&sa=X&ved=0ahUKEwi_iueEpYngAhWoVN8KHSFPAN8QpwUIIA&biw=1321&bih=767&dpr=2#imgrc=lVU5krsz5qXwUM:)
-      * [Ghostcatching by Bill T. Jones - 1999](https://www.youtube.com/watch?v=aL5w_b-F8ig)
+      * [Ghostcatching by Bill T. Jones - 1999](https://www.youtube.com/watch?v=aL5w_b-F8ig) | [Description](https://massmoca.org/event/ghostcatching/)
       * [GLOW - Chunky Move, 2006 - ](https://www.youtube.com/watch?v=2AautwIOON8)
    * Examples
       * [Linear Pathway](http://editor.p5js.org/move.mimi/sketches/rJWBguUNf)
@@ -72,8 +72,11 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Kinect Skeleton - Draw Trails: [Code](https://editor.p5js.org/move.mimi/sketches/rkji-ofz4)
 
 ### Assignment
-   * [Watch videos 1-9](https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)(111 minutes)
-   * [Watch videos 12, 14, 16, 18-20, 25, 26](https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)(95 minutes)
+   * [p5.js Code! Tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+      * Introduction
+      * Drawing
+      * Animation (Video 2.6 is optional)
+      * Total Time: ~2.5 hours
 
 
 ## Week 1: Introduction Friday 2-5PM (Everyone)
@@ -94,17 +97,6 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * What are all the different kinds of pathways?
    * What are all the ways to interact with a pathway?
    * How do you choreograph pathways in code?
-   * What can a line express?
-
-### In-class
-   * Interacting with a static line (tape)
-   * Interacting with a moving line
-
-### Resources
-   * Linear Pathways
-      * [Linear Pathway](http://editor.p5js.org/move.mimi/sketches/rJWBguUNf)
-      * [Linear Pathway - Deconstructed](http://editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
-
 
 ### Assignment
    * For background on approaches to movement improvisation:
@@ -118,14 +110,30 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
 ***
 
-## Week 2: Pathways: Random()
+## Week 2: Pathways: line() and random()
 
-### Questions
-   * Does random() feel random?
+### line()
+
+#### Questions
+   * What can a line express?
+
+#### In-class
+   * Interacting with a static line (tape)
+   * Interacting with a moving line
+
+### Resources
+* Linear Pathways
+   * [Linear Pathway](http://editor.p5js.org/move.mimi/sketches/rJWBguUNf)
+   * [Linear Pathway - Deconstructed](http://editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
+
+### random()
+
+#### Questions
+   * When does random() feel most random?
 
 ### In-class
    * Random facings.
-   * Trios: Activating random spots.
+   * Duets: Activating random spots.
    * Interacting with random spots on the floor.
    * Storyboarding Random Pathways study.
 
@@ -140,7 +148,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Random Positions](https://editor.p5js.org/move.mimi/sketches/arR72_jfr) | [Fullscreen](https://editor.p5js.org/move.mimi/embed/arR72_jfr)
 
 ### Assignment: Study No. 1 Random Pathways
-   * Choreograph a 30 - 180 second generative random pathway that contains 2 ideas.
+   * Choreograph a 30 - 180 second generative random pathway that feels most random.
       * At least 1 parameter of random() needs to change over time.
       * Use the [Random Pathway with Controls](http://editor.p5js.org/embed/ByBuJtIEz) to explore ideas.
       * Think about the linear pathways that are baked into Random Pathways.
@@ -149,14 +157,13 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Post a link to the code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-2-random-pathways)
    * Complete [Chapter 1.5](https://docs.google.com/document/d/1XwMkW8i0w6ekI6rQErRdpMLPM7U-5FnJ_jcobAlbQVk/edit?usp=sharing) of the Workbook
 
-
 ***
 
 ## Week 3: Pathways: Circular Pathways
    * Workshop Study No. 1: Random Pathways.
 
 ### Questions
-   * The paradox that is a circle.
+   * What does a circle mean to you?
 
 ### In-class
    * Blind duet.
@@ -178,7 +185,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Polar Rose-ish](http://editor.p5js.org/move.mimi/sketches/HJTDNYKVf) | [Polar Rose Shape](https://editor.p5js.org/move.mimi/sketches/gO8ew1q-Y)
 
 ### Assignment: Study No. 2 Circular Pathways
-   * Choreograph a 30 - 180 second generative circular pathway in code with 2 ideas. It should be recognizably "circular" movement.
+   * Choreograph a 30 - 180 second generative circular pathway in code that expresses 2 ideas about circles. It should be recognizably "circular" movement.
       * At least 1 parameter of the circle needs to change over time.
       * Use the [Circular Pathway with Controls](http://editor.p5js.org/embed/Sy7iKoIEf) to explore ideas.
       * Discuss and **diagram** choreographic possibilities for how to interact with your pathway.
@@ -233,12 +240,15 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [The Richards](https://docs.google.com/presentation/d/1ztykeqBON9ZEDjL6AHBjp0GJUP5C6Ut2cjHVWAsyh2w/edit?usp=sharing)
 
    * Examples
-      * [Switching Joints](https://editor.p5js.org/move.mimi/sketches/r9tbdwe30) | [Custom Joints List](https://editor.p5js.org/move.mimi/sketches/_YbQUQeLE)
-      * [Distance between different joints](https://editor.p5js.org/move.mimi/sketches/rJENqsmGV) | [Distance between same joint on different skeletons](COMING SOON)
-      * Audio Examples: [Triggering sounds]() | [Volume]() | [Pitch]()
+      * See Kinect_Azure folder in code repository:
+         * Skeleton_Switch_Joints
+         * Skeleton_Custom_Joints
+         * Skeleton_Distance
+         * Skeleton_Distance_Between_Bodies
+         * Skeleton_Draw_Speed
 
 #### Assignment: Study No. 3 The Joint Dance.
-   * Create a duet. Hook up the joints of the 2 skeletons to interact with sound. [Upload your code here](https://drive.google.com/drive/folders/1K9PzgRpF_8LOja82zmM4KGsyrltfecZD?usp=sharing)
+   * Create a duet joint dance. [Upload your code here](https://drive.google.com/drive/folders/1K9PzgRpF_8LOja82zmM4KGsyrltfecZD?usp=sharing)
    * Bring a piece of clothing that alters (confines, expands, distorts) your body to class next week. Look here for inspiration:
       * [Danse Des Masques](https://www.youtube.com/watch?v=mpOdxI1owdQ)
       * [Martha Graham: Lamentations and Satyric Song](https://www.youtube.com/watch?v=npSXDzqwFJg)
