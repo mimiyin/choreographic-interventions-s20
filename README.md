@@ -78,6 +78,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Drawing
       * Animation (Video 2.6 is optional)
       * Total Time: ~2.5 hours
+   * Continue working on your opening choreography in code by animating movement. Get as far as you can get.
 
 
 ## Week 1: Introduction Friday 2-5PM (Everyone)
@@ -90,8 +91,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * How is code an expressive medium?
 
 ### In-class
-      * Walking improv.
-      * 1-on-1 walking duet.
+   * Walking improv.
+   * 1-on-1 walking duet.
 
 ### Introduction to Pathways
    * Can a pathway be expressive?
@@ -108,6 +109,12 @@ Each topic will be introduced through paper-based drawing exercises and code exa
          * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
       * Read chapter 2 of [Viewpoints](https://stilluntitledproject.files.wordpress.com/2014/11/anne-bogart-and-tina-landau-the-viewpoints-book.pdf).
    * Read and complete [Chapters 0](https://docs.google.com/document/d/1wJgAu3TKRZBt6dNulqIiDK0A3dag5t7I75sett32t-0/edit?usp=sharing) and [Chapter 1.0-1.3](https://docs.google.com/document/d/1XwMkW8i0w6ekI6rQErRdpMLPM7U-5FnJ_jcobAlbQVk/edit?usp=sharing) of the Workbook
+
+### Coding Assignment
+   * [p5.js Code! Tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+      * Interaction (~1.5 hours)
+   * Complete your opening choreography in code. Include timing. Try finding a way to add in a loop. Get as far as you can get.
+
 
 ***
 
@@ -223,6 +230,14 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
    * Complete sections 2.0-2.2 of [Chapter 2 of the Workbook](https://docs.google.com/document/d/1U9364QQRfzc_Ijsl-HefyRDAHN8M7_FpZYjrzu3UYoo/edit?usp=sharing)
    * Collect 10 very different representations of the human form. [Add them to this folder on Google Drive.](https://drive.google.com/drive/folders/1oGIzWzfq3ngn5gF0YGWlFYhApL5KGBzK?usp=sharing)
+
+### Coding Assignment
+  * [p5.js Code! Tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+     * Modularity (30 minutes)
+     * Object-Oriented Programming (35 minutes)
+     * Repetition and Duplication: 7.1-7.3, 16.4 (~40 minutes)
+     * Total Time: ~2 hours
+  * Try running the Kinect Skeleton Examples. Pick 1 example and find 3 ways to modify the code.
 
 ***
 
