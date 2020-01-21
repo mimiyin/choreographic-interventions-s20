@@ -61,10 +61,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 
   // Define and create an instance of kinectron
-  kinectron = new Kinectron("10.17.201.104");
-
-  // For Azure Kinect use "azure"
-  kinectron.setKinectType("azure");
+  kinectron = new Kinectron(IP);
 
   // Connect with application over peer
   kinectron.makeConnection();

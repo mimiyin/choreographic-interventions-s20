@@ -58,9 +58,6 @@ function setup() {
   // Define and create an instance of kinectron
   kinectron = new Kinectron(IP);
 
-  // For Azure Kinect use "azure"
-  kinectron.setKinectType("azure");
-
   // Connect with application over peer
   kinectron.makeConnection();
 

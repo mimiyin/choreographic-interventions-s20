@@ -7,7 +7,7 @@ Press ENTER to erase.
 */
 
 // IP Address
-let IP = "192.168.0.117";
+let IP = "192.168.0.136";
 
 // Scale size of skeleton
 let SCL = 0.5;
@@ -63,9 +63,6 @@ function setup() {
   // Define and create an instance of kinectron
   kinectron = new Kinectron(IP);
 
-  // For Azure Kinect use "azure"
-  kinectron.setKinectType("azure");
-
   // Connect with application over peer
   kinectron.makeConnection();
 
@@ -93,7 +90,7 @@ function bodyTracked(body) {
 
   // If there is a previous position
   if (ppos) {
-    let speed = dist(ppos.x, ppos.y, ppos.z, pos.x, pos.y, pos.z);
+    let speed = dist(ppos.x, ppos.y, pos.x, pos.y);
     let sw = 1;
 
     // 3 ways to set strokeweight according to speed.
@@ -101,7 +98,7 @@ function bodyTracked(body) {
       sw = speed / 10;
     }
     if (mode == 2) {
-      sw = 100 / speed;
+      sw = 10 / speed;
     }
     if (mode == 3) {
       sw = map(speed, 0, 100, 10, 0);
@@ -119,7 +116,7 @@ function bodyTracked(body) {
   // Print which joint is selected
   stroke(255);
   textSize(18);
-  text("RT/LFT to change joints. " + j + ": " + joints[j], 10, 20);
+  text("RT/LFT to change joints. " + j + ": " + jointNames[j], 10, 20);
 }
 
 // Draw each joint
@@ -140,6 +137,7 @@ function keyPressed() {
       break;
     case LEFT_ARROW:
       j--;
+      break;
     case RIGHT_ARROW:
       j++;
       break;
