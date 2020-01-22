@@ -53,7 +53,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ***
 ***
 
-## Week 0: Introduction for Barnard Wednesday 1:10-2:25PM, Friday 2-4PM
+## Week 0: Introduction for Barnard Wednesday 1:10-2:25PM, Friday 2-5PM
    * Hello!
    * What is interaction?
    * Introduction to Computation and Interaction through Movement

@@ -5,7 +5,7 @@ Selecting different joints.
  */
 
  // IP Address of kinectron server
- let IP = "192.168.0.136";
+ let IP = "172.19.139.244";
 
  // Scale size of skeleton
  let SCL = 0.5;
@@ -57,6 +57,9 @@ function setup() {
 
   // Define and create an instance of kinectron
   kinectron = new Kinectron(IP);
+
+  // Set kinect version to azure
+  kinectron.setKinectType("azure");
 
   // Connect with application over peer
   kinectron.makeConnection();
