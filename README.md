@@ -78,7 +78,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Drawing
       * Animation (Video 2.6 is optional)
       * Total Time: ~2.5 hours
-   * Continue working on your opening choreography in code by animating movement. Get as far as you can get.
+   * Continue working on your opening choreography in code by animating movement. Make something at least 30 seconds long. Get as far as you can get.
 
 
 ## Week 1: Introduction Friday 2-5PM (Everyone)
