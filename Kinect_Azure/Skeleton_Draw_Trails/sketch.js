@@ -7,10 +7,10 @@ Press ENTER to erase.
 */
 
 // IP Address of kinectron server
-let IP = "192.168.0.136";
+let IP = "172.19.139.244";
 
 // Scale size of skeleton
-let SCL = 0.5;
+let SCL = 0.25;
 
 // Declare kinectron
 let kinectron = null;
@@ -57,12 +57,15 @@ let jointNames = [
   "EAR_RIGHT"
 ];
 
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
   // Define and create an instance of kinectron
   kinectron = new Kinectron(IP);
-  console.log(kinectron);
+
+  // Set kinect version to azure
+  kinectron.setKinectType("azure");
 
   // Connect with application over peer
   kinectron.makeConnection();
