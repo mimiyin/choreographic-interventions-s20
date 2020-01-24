@@ -62,6 +62,7 @@ function setup() {
 
   // Define and create an instance of kinectron
   kinectron = new Kinectron(IP);
+  console.log(kinectron);
 
   // Connect with application over peer
   kinectron.makeConnection();
