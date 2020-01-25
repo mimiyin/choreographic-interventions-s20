@@ -7,7 +7,7 @@ Press ENTER to erase.
 */
 
 // IP Address of kinectron server
-let IP = "172.19.139.244";
+let IP = "172.19.134.64";
 
 // Scale size of skeleton
 let SCL = 0.25;

@@ -59,18 +59,12 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Introduction to Computation and Interaction through Movement
    * Cartesian Plane, Linear Motion, Drawing with the Body with the Kinect
    * Resources
-      * [Ghostcatching by Bill T. Jones - 1999](https://www.youtube.com/watch?v=aL5w_b-F8ig) | [Description](https://massmoca.org/event/ghostcatching/)
       * [GLOW - Chunky Move, 2006 - ](https://www.youtube.com/watch?v=2AautwIOON8)
    * Examples
-      * [Linear Pathway](http://editor.p5js.org/move.mimi/sketches/rJWBguUNf)
-      * [Linear Pathway - Deconstructed](http://editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
+      * [Moving Dots](https://editor.p5js.org/move.mimi/sketches/ycBgQqFwp)
       * [Drawing a Line](http://editor.p5js.org/move.mimi/sketches/SJwTOF8Ez)
       * [Drawing Expressive Lines](https://editor.p5js.org/move.mimi/sketches/ByPtNLI4z)
       * [Drawing a Trail](http://editor.p5js.org/move.mimi/sketches/H1flrLLVG)
-      * In the Kinect Azure folder of this repository:
-         * Skeleton_Switch_Joints
-         * Skeleton_Draw_Lines
-         * Skeleton_Draw Trails
 
 ### Assignment
    * [p5.js Code! Tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
@@ -100,6 +94,17 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * What are all the ways to interact with a pathway?
    * How do you choreograph pathways in code?
 
+### Resources
+   * [Espaece](https://www.youtube.com/watch?v=OxtGWGQOTZM)
+   * [Linear Pathway](http://editor.p5js.org/move.mimi/sketches/rJWBguUNf)
+   * [Linear Pathway - Deconstructed](http://editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
+   * [Drawing Expressive Lines](https://editor.p5js.org/move.mimi/sketches/ByPtNLI4z)
+   * [Drawing a Trail](http://editor.p5js.org/move.mimi/sketches/H1flrLLVG)
+   * In the Kinect Azure folder of this repository:
+      * Skeleton_Switch_Joints
+      * Skeleton_Draw_Lines
+      * Skeleton_Draw Trails
+
 ### Assignment
    * For background on approaches to movement improvisation:
       * Watch [Forsythe Technique Videos](https://www.youtube.com/user/GrandpaSafari/videos): They range from 10s to 1 minute. Very short!
@@ -109,11 +114,12 @@ Each topic will be introduced through paper-based drawing exercises and code exa
          * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
       * Read chapter 2 of [Viewpoints](https://stilluntitledproject.files.wordpress.com/2014/11/anne-bogart-and-tina-landau-the-viewpoints-book.pdf).
    * Read and complete [Chapters 0](https://docs.google.com/document/d/1wJgAu3TKRZBt6dNulqIiDK0A3dag5t7I75sett32t-0/edit?usp=sharing) and [Chapter 1.0-1.3](https://docs.google.com/document/d/1XwMkW8i0w6ekI6rQErRdpMLPM7U-5FnJ_jcobAlbQVk/edit?usp=sharing) of the Workbook
+   * Watch the first 5 minutes of [GLOW](https://www.youtube.com/watch?v=2AautwIOON8) and write a blog post identifying 3-5 moments that grabbed you and 1 sentence explaining why. Also include when you tuned out. Please include screenshots. [Post your link here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-1-response-to-glow)
 
 ### Coding Assignment
    * [p5.js Code! Tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
       * Interaction (~1.5 hours)
-   * Complete your opening choreography in code. Include timing. Try finding a way to add in a loop. Get as far as you can get.
+   * Complete your 30 second opening choreography in code. Include timing. Try finding a way to add in a loop. Get as far as you can get.
 
 
 ***
