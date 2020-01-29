@@ -117,10 +117,10 @@ Each topic will be introduced through paper-based drawing exercises and code exa
          * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
    * Read and complete [Chapters 0](https://docs.google.com/document/d/1wJgAu3TKRZBt6dNulqIiDK0A3dag5t7I75sett32t-0/edit?usp=sharing) and [Chapter 1.0-1.2](https://docs.google.com/document/d/1XwMkW8i0w6ekI6rQErRdpMLPM7U-5FnJ_jcobAlbQVk/edit?usp=sharing) of the Workbook
 
-### Coding Assignment
+### Barnard Assignment: Due Next Wednesday
    * [p5.js Code! Tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
       * Interaction (~1.5 hours)
-   * Complete your 30 second opening choreography in code. Include timing. Try finding a way to add in a loop. Get as far as you can get.
+   * Keep working on your 30 second opening choreography in code. Try finding a way to add in a loop. Get as far as you can get.
 
 ***
 
