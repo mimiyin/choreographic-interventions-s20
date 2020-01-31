@@ -72,7 +72,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Drawing
       * Animation (Video 2.6 is optional)
       * Total Time: ~2.5 hours
-   * Continue working on your opening choreography in code by animating movement. Make something at least 30 seconds long. Get as far as you can get. [Post a link to your sketch here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments)
+   * Continue working on your opening choreography in code by animating movement. Make something at least 30 seconds long. Get as far as you can get. [Post a link to your sketch here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-0-opening-sketch)
 
 
 ## Week 1: Introduction Friday 2-5PM (Everyone)
@@ -107,7 +107,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * [Linear Pathway](http://editor.p5js.org/move.mimi/sketches/rJWBguUNf)
    * [Linear Pathway - Deconstructed](http://editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
 
-### Assignment
+### Assignment: Due next Friday.
    * What is composition? Read chapter 2 of [Viewpoints](https://stilluntitledproject.files.wordpress.com/2014/11/anne-bogart-and-tina-landau-the-viewpoints-book.pdf).
    * For background on approaches to movement improvisation:
       * Watch [Forsythe Technique Videos](https://www.youtube.com/user/GrandpaSafari/videos): They range from 10s to 1 minute. Very short!
@@ -116,11 +116,12 @@ Each topic will be introduced through paper-based drawing exercises and code exa
          * [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
          * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
    * Read and complete [Chapters 0](https://docs.google.com/document/d/1wJgAu3TKRZBt6dNulqIiDK0A3dag5t7I75sett32t-0/edit?usp=sharing) and [Chapter 1.0-1.2](https://docs.google.com/document/d/1XwMkW8i0w6ekI6rQErRdpMLPM7U-5FnJ_jcobAlbQVk/edit?usp=sharing) of the Workbook
+      * Print it out and complete the exercises by hand. Staple it. Put your name on it. Submit it next Friday.
 
-### Barnard Assignment: Due Next Wednesday
+### Barnard Assignment: Due next Wednesday
    * [p5.js Code! Tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
       * Interaction (~1.5 hours)
-   * Keep working on your 30 second opening choreography in code. Try finding a way to add in a loop. Get as far as you can get.
+   * Duplicate your sketch and keep working on your 30 second opening choreography in code. Try finding a way to add in a loop. Get as far as you can get. Give it a real title! [Post a link here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-1-opening-sketch-round-2)
 
 ***
 
