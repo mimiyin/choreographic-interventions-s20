@@ -90,10 +90,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
 ### Introduction to Pathways
    * Can a pathway be expressive?
-   * What are all the different kinds of pathways?
-   * What are all the ways to interact with a pathway?
    * How do you choreograph pathways in drawings?
-   * How do you choreograph pathways in code?
 
 ### Resources
    * [Espaece](https://www.youtube.com/watch?v=OxtGWGQOTZM)
@@ -108,17 +105,17 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * [Linear Pathway - Deconstructed](http://editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
 
 ### Assignment: Due next Friday.
-   * What is composition? Read chapter 2 of [Viewpoints](https://stilluntitledproject.files.wordpress.com/2014/11/anne-bogart-and-tina-landau-the-viewpoints-book.pdf).
-   * For background on approaches to movement improvisation:
+   * Read and complete [Chapters 0](https://docs.google.com/document/d/1wJgAu3TKRZBt6dNulqIiDK0A3dag5t7I75sett32t-0/edit?usp=sharing) and [Chapter 1.0-1.2](https://docs.google.com/document/d/1XwMkW8i0w6ekI6rQErRdpMLPM7U-5FnJ_jcobAlbQVk/edit?usp=sharing) of the Workbook
+      * Print it out and complete the exercises by hand. Staple it. Put your name on it. Submit it next Friday.
+   * For background on approaches to composition and movement improvisation:
+      * What is composition? Read chapter 2 of [Viewpoints](https://stilluntitledproject.files.wordpress.com/2014/11/anne-bogart-and-tina-landau-the-viewpoints-book.pdf).
       * Watch [Forsythe Technique Videos](https://www.youtube.com/user/GrandpaSafari/videos): They range from 10s to 1 minute. Very short!
          * 16 videos that start with Forsythe-Writing
          * 23 videos that start with Forsythe-Lines
          * [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
          * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
-   * Read and complete [Chapters 0](https://docs.google.com/document/d/1wJgAu3TKRZBt6dNulqIiDK0A3dag5t7I75sett32t-0/edit?usp=sharing) and [Chapter 1.0-1.2](https://docs.google.com/document/d/1XwMkW8i0w6ekI6rQErRdpMLPM7U-5FnJ_jcobAlbQVk/edit?usp=sharing) of the Workbook
-      * Print it out and complete the exercises by hand. Staple it. Put your name on it. Submit it next Friday.
 
-### Barnard Assignment: Due next Wednesday
+### Barnard Assignment: Due next Wednesday.
    * [p5.js Code! Tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
       * Interaction (~1.5 hours)
    * Duplicate your sketch and keep working on your 30 second opening choreography in code. Try finding a way to add in a loop. Get as far as you can get. Give it a real title! [Post a link here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-1-opening-sketch-round-2)
@@ -138,7 +135,6 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * [Epaulement](https://balletclassroom.wordpress.com/basic-positions-of-the-body-cecchetti-method/)
    * Elgin Marbles : [Left-From - Front](https://www.thesun.co.uk/wp-content/uploads/2018/06/nintchdbpict000352397585.jpg?strip=all&w=960) | [Left-From-Left](https://theconversation.com/while-elgin-marbles-debate-rages-there-is-still-a-market-for-looted-antiquities-22422) | Right
    * Burghers of Calais : [Separated](http://employees.oneonta.edu/farberas/arth/Images/ARTH200/politics/Rodin_Burghers_of_Calais_stanford.jpg) | [Together](http://employees.oneonta.edu/farberas/arth/Images/ARTH200/politics/Rodin_Burghers_of_Calais_Rodin_mus.jpg) | [Together From Below](https://en.wikipedia.org/wiki/File:Burghers_of_Calais_Hirshhorn.jpg)
-   * [Little Swans](https://www.youtube.com/watch?v=Xd2nTXsivHs) | [Entrance of the Shades](https://www.youtube.com/watch?v=rihCj92hBko&feature=youtu.be&t=30) | [Apollo Pt. 1](https://www.youtube.com/watch?v=BbK1rF23FD8&list=RDBbK1rF23FD8&start_radio=1), [Apollo Pt. 2](https://www.youtube.com/watch?v=MG7xaHJU_Ts) | [Rich Man's Frug](https://www.youtube.com/watch?v=DSSlWfOCgLw&feature=youtu.be&t=110)
    * Linear Pathways
       * [Linear Pathway](http://editor.p5js.org/move.mimi/sketches/rJWBguUNf)
       * [Linear Pathway - Deconstructed](http://editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
