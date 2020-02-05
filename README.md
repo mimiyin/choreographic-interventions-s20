@@ -139,9 +139,14 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Linear Pathway](http://editor.p5js.org/move.mimi/sketches/rJWBguUNf)
       * [Linear Pathway - Deconstructed](http://editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
 
+### Barnard Assignment: Complete before Week 2 Friday class.
+   * [p5.js Code! Tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+      * Modularity and Reusability (~30 minutes)
+      * Object-oriented Programming (~35 minutes)
+
 ### Assignment: Study No. 1 Linear Pathways
-   * Storyboard 5 configurations of 4 people. Design how people will get from frame to frame of your storyboard. Specify facing, direction of movement and speed. Implement those linear pathways in code. In class we will remove the people and create a choreography that interacts with those linear pathways. Timespan: 30-180 seconds.
-      * Post a link to your sketch here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-2-random-pathways)
+   * Create a duet or trio that involves at least 1 moving line() that will be projected on the floor. Design interactions against the line(s). Specify facing, direction of movement and speed. Specify the parameters of movement you are working with to develop your choreography. Timespan: 30-180 seconds.
+      * Post your drawings and a link to your sketch here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-2-random-pathways)
 
 ***
 
