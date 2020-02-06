@@ -144,6 +144,10 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Post your drawings and a link to your sketch here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-2-random-pathways)
 
 ### Barnard Assignment: Due next Wednesday.
+   * Examples from class:
+      * [Moving 4 points with a Loop](https://editor.p5js.org/move.mimi/sketches/1IsFHIadI)
+      * [Functionalizing Moving](https://editor.p5js.org/move.mimi/sketches/CnMhvFXM)
+      * [Moving with a Class to enable individualized movement](https://editor.p5js.org/move.mimi/sketches/HIb5lANw)
    * [p5.js Code! Tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
       * Modularity and Reusability (~30 minutes)
       * Object-oriented Programming (~35 minutes)
