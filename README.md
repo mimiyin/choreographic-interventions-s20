@@ -138,9 +138,10 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Linear Pathways
       * [Linear Pathway](http://editor.p5js.org/move.mimi/sketches/rJWBguUNf)
       * [Linear Pathway - Deconstructed](http://editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
+      * [Growing line()](https://editor.p5js.org/move.mimi/sketches/UlreY9a7)
 
 ### Assignment: Study No. 1 Linear Pathways
-   * Create a duet or trio that involves at least 1 moving line() that will be projected on the floor. Design interactions against the line(s). Specify facing, direction of movement and speed. Specify the parameters of movement you are working with to develop your choreography. Timespan: 30-180 seconds.
+   * Create a duet or trio that involves at least 1 moving line() that will be projected on the floor. Design interactions with the line(s) with drawings. Specify facing, direction of movement and speed. Specify the parameters of movement you are working with to develop your choreography. Timespan: 30-90 seconds.
       * Post your drawings and a link to your sketch here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-2-random-pathways)
 
 ### Barnard Assignment: Due next Wednesday.
