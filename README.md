@@ -141,8 +141,10 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Growing line()](https://editor.p5js.org/move.mimi/sketches/UlreY9a7)
 
 ### Assignment: Study No. 1 Linear Pathways
-   * Create a duet or trio that involves at least 1 moving line() that will be projected on the floor. Design interactions with the line(s) with drawings. Specify facing, direction of movement and speed. Specify the parameters of movement you are working with to develop your choreography. Timespan: 30-90 seconds.
+   * Create a duet or trio that involves at least 1 moving line() that will be projected on the floor. Design interactions with the line(s) with drawings. Specify facing, direction of movement and speed. Specify the parameters of movement you are working with to develop your choreography.
+      * Timespan: 30-90 seconds.
       * Your sketch should be 1920x1080.
+      * [Consider these parameters.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Parameters-for-Interacting-with-a-Line)
       * [Example of Line class to make lots of lines easily](https://editor.p5js.org/move.mimi/sketches/1z3I2Io_)
       * Post your drawings and a link to your sketch here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-2-linear-pathways)
 
