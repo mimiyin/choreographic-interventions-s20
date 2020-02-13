@@ -177,9 +177,9 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Complete [Chapter 1.5](https://docs.google.com/document/d/1XwMkW8i0w6ekI6rQErRdpMLPM7U-5FnJ_jcobAlbQVk/edit?usp=sharing) of the Workbook
 
 ### Barnard Assignment: Due next Wednesday.
-    * *REVIEW* [Functions and Returns](https://www.youtube.com/watch?v=qRnUBiTJ66Y&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=0s) and see if you can figure out how to simplify the _update()_ function so that it's only updating a single pair of x,y coordinates for both lines. [Post your (attempt at a) solution here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-3-functions-with-returns).
-    * *NEW* [p5.js Code! Tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
-       * Repetition and Duplications (7.1-7.3, 16.4) (~45 minutes)
+   * *REVIEW* [Functions and Returns](https://www.youtube.com/watch?v=qRnUBiTJ66Y&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=0s) and see if you can figure out how to simplify the _update()_ function so that it's only updating a single pair of x,y coordinates for both lines. [Post your (attempt at a) solution here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-3-functions-with-returns).
+   * *NEW* [p5.js Code! Tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+      * Repetition and Duplications (7.1-7.3, 16.4) (~45 minutes)
 
 
 ## Week 4: Pathways: sin() and cos()
