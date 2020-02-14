@@ -132,13 +132,11 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Interacting with a moving line
 
 ### Resources
-   * [Epaulement](https://balletclassroom.wordpress.com/basic-positions-of-the-body-cecchetti-method/)
-   * Elgin Marbles : [Left-From - Front](https://www.thesun.co.uk/wp-content/uploads/2018/06/nintchdbpict000352397585.jpg?strip=all&w=960) | [Left-From-Left](https://theconversation.com/while-elgin-marbles-debate-rages-there-is-still-a-market-for-looted-antiquities-22422) | Right
-   * Burghers of Calais : [Separated](http://employees.oneonta.edu/farberas/arth/Images/ARTH200/politics/Rodin_Burghers_of_Calais_stanford.jpg) | [Together](http://employees.oneonta.edu/farberas/arth/Images/ARTH200/politics/Rodin_Burghers_of_Calais_Rodin_mus.jpg) | [Together From Below](https://en.wikipedia.org/wiki/File:Burghers_of_Calais_Hirshhorn.jpg)
    * Linear Pathways
       * [Linear Pathway](http://editor.p5js.org/move.mimi/sketches/rJWBguUNf)
       * [Linear Pathway - Deconstructed](http://editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
       * [Growing line()](https://editor.p5js.org/move.mimi/sketches/UlreY9a7)
+      * [Pathways Code Tutorial](https://docs.google.com/document/d/1YsZ_6vcZ0FXrp_Bd0acECLyZfL7bsRNBAf1evvVJADI/edit#)
 
 ### Assignment: Study No. 1 Linear Pathways
    * Create a duet or trio that involves at least 1 moving line() that will be projected on the floor. Design interactions with the line(s) with drawings. Specify facing, direction of movement and speed. Specify the parameters of movement you are working with to develop your choreography.
@@ -167,7 +165,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
 ### In-class
    * Random facings.
-   * Duets: Activating random spots.
+   * Random facings through sound.
+   * Trios: Activating random spots.
    * Interacting with random spots on the floor.
 
 ### Resources
