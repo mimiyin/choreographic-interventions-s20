@@ -137,6 +137,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Linear Pathway - Deconstructed](http://editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
       * [Growing line()](https://editor.p5js.org/move.mimi/sketches/UlreY9a7)
       * [Pathways Code Tutorial](https://docs.google.com/document/d/1YsZ_6vcZ0FXrp_Bd0acECLyZfL7bsRNBAf1evvVJADI/edit#)
+      * [Pathways Workbook Brainstorm](https://drive.google.com/file/d/1REn4We4yRNYe7ismoUcuPcnC_0wyEKyq/view?usp=sharing)
 
 ### Assignment: Study No. 1 Linear Pathways
    * Create a duet or trio that involves at least 1 moving line() that will be projected on the floor. Design interactions with the line(s) with drawings. Specify facing, direction of movement and speed. Specify the parameters of movement you are working with to develop your choreography.
