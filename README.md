@@ -211,10 +211,12 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * At least 1 parameter of the circle needs to change over time.
       * Use the [Circular Pathway with Controls](http://editor.p5js.org/embed/Sy7iKoIEf) to explore ideas.
       * Discuss and **diagram** choreographic possibilities for how to interact with your pathway.
-      * Post a draft of your code by Wednesday morning to be tested at Barnard at noon.
       * Post a link to the code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-3-circular-pathways)
 
-   ***
+### Barnard Assignment: Due next Wednesday
+   * Add to your Line() class so that you can assign start and end framecounts to control when the line moves and when it doesn't. [Post a link here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-4-classes-and-objects)
+
+***
 
 ## Week 5: The Body
 
@@ -251,11 +253,6 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Rei Kawakubo: Shifting your center of gravity. [Scenario by Merce Cunningham](https://www.youtube.com/watch?v=MBlzeehZIeE)
 
 ### Coding Assignment
-  * [p5.js Code! Tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
-     * Modularity (30 minutes)
-     * Object-Oriented Programming (35 minutes)
-     * Repetition and Duplication: 7.1-7.3, 16.4 (~40 minutes)
-     * Total Time: ~2 hours
   * Try running the Kinect Skeleton Examples. Pick 1 example and find 3 ways to modify the code.
 
 ***
