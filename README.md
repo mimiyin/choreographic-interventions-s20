@@ -185,14 +185,17 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ## Week 4: Pathways: sin() and cos()
 
 ### Questions
-   * What does a circle mean to you?
+   * What does a circle represent to you?
 
 ### In-class
-   * Blind duet.
-   * 4 ways to walk in a circle: Front, Back, Right, Left.
+   * Random improv.
    * Circular floor work.
 
 ### Resources
+   * Coding Tutorials
+      * [Chapters 3.1, 3.3, 3.5](https://natureofcode.com/book/chapter-3-oscillation/)
+      * [Angles + Angular Motion](https://www.youtube.com/watch?v=qMq-zd6hguc&list=PLRqwX-V7Uu6bR4BcLjHHTopXItSjRA7yG&index=2&t=0s)
+      * [Trigonometry + Polar Coodinates](https://www.youtube.com/watch?v=znOBmOrtz_M&list=PLRqwX-V7Uu6bR4BcLjHHTopXItSjRA7yG&index=3&t=1s)
    * Video
       * [Anne Teresa de Keersmaeker: Violin Fase](https://www.youtube.com/watch?v=i36Qhn7NhoA)
       * [Contemporary Dance Floorwork](https://www.youtube.com/watch?v=nQkCGsBI-aY)
@@ -207,11 +210,11 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Polar Rose-ish](http://editor.p5js.org/move.mimi/sketches/HJTDNYKVf) | [Polar Rose Shape](https://editor.p5js.org/move.mimi/sketches/gO8ew1q-Y)
 
 ### Assignment: Study No. 2 Circular Pathways
-   * Choreograph a 30 - 180 second generative circular pathway. Create a choreography that interacts with that circular pathway.
-      * At least 1 parameter of the circle needs to change over time.
-      * Use the [Circular Pathway with Controls](http://editor.p5js.org/embed/Sy7iKoIEf) to explore ideas.
+   * Choreograph a 30 - 90 second generative circular pathway. Create a floor choreography that interacts with that circular pathway.
+      * Take into consideration the dynamics and timing inherent to circular motion.
+      * Make use of the whole body and it's ability to move circularly and linearly.
       * Discuss and **diagram** choreographic possibilities for how to interact with your pathway.
-      * Post a link to the code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-3-circular-pathways)
+      * Post a link to your drawings and code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-3-circular-pathways)
 
 ### Barnard Assignment: Due next Wednesday
    * Add to your Line() class so that you can assign start and end framecounts to control when the line moves and when it doesn't. [Post a link here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-4-classes-and-objects)
