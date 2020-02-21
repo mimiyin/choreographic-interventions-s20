@@ -214,7 +214,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Take into consideration the dynamics and timing inherent to circular motion.
       * Make use of the whole body and it's ability to move circularly and linearly.
       * Discuss and **diagram** choreographic possibilities for how to interact with your pathway.
-      * Post a link to your drawings and code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-3-circular-pathways)
+      * Post a link to your drawings and code you will demo with here: [Assignment Page](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-4-circular-pathways)
 
 ### Barnard Assignment: Due next Wednesday
    * Add to your Line() class so that you can assign start and end framecounts to control when the line moves and when it doesn't. [Post a link here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-4-classes-and-objects)
