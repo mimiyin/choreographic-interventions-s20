@@ -205,7 +205,6 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Circular Pathway](http://editor.p5js.org/move.mimi/sketches/rJSP_5ING)
       * [Circle with Tangents](http://editor.p5js.org/move.mimi/sketches/r1HaDcLEz)
       * [Circles and Sin/Cos](http://editor.p5js.org/move.mimi/sketches/rJ_vtcUNz)
-      * Circular Pathway with Controls: [Code](http://editor.p5js.org/move.mimi/sketches/Sy7iKoIEf) | [Fullscreen](http://editor.p5js.org/embed/Sy7iKoIEf)
       * [Polar Roses](https://en.wikipedia.org/wiki/Rose_(mathematics))
       * [Polar Rose-ish](http://editor.p5js.org/move.mimi/sketches/HJTDNYKVf) | [Polar Rose Shape](https://editor.p5js.org/move.mimi/sketches/gO8ew1q-Y)
 
