@@ -1,7 +1,7 @@
 /*
 Mimi Yin NYU-ITP
 Drawing skeleton joints and bones.
- */
+*/
 
  // IP Address of kinectron server
  let IP = "192.168.0.136";

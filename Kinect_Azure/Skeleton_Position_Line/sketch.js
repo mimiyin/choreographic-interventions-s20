@@ -15,6 +15,9 @@ let kinectron = null;
 // Variable for moving line
 let y = 0;
 
+// Variables for 2 joints
+let right, left;
+
 // Joint indices by name
 let PELVIS = 0;
 let SPINE_NAVAL = 1;
@@ -69,6 +72,24 @@ function setup() {
 
 function draw() {
   //Nothing to see here
+  // Once there's data
+  if (left && right) {
+    // Map right hand to speed
+    let speed = map(right.y, 200, 100, 0, 10);
+    // Map left hand to angle of rotation
+    let a = map(left.y, 200, 100, 0, PI);
+
+    // Add speed
+    y += speed;
+    if(y > height) y = 0;
+
+    // Draw a line
+    push();
+    translate(width/2, height/2);
+    rotate(a);
+    line(width/2, 0, width/2, y);
+    pop();
+  }
 }
 
 function bodyTracked(body) {
@@ -121,24 +142,8 @@ function bodyTracked(body) {
   let earRight = scaleJoint(body.joints[EAR_RIGHT]);
 
   // Pick 2 joints to control the line
-  let right = handRight;
-  let left = handLeft;
-
-  // Map right hand to speed
-  let speed = map(right.y, 200, 100, 0, 10);
-  // Map left hand to angle of rotation
-  let a = map(left.y, 200, 100, 0, PI);
-
-  // Add speed
-  y += speed;
-  if(y > height) y = 0;
-
-  // Draw a line
-  push();
-  translate(width/2, height/2);
-  rotate(a);
-  line(width/2, 0, width/2, y);
-  pop();
+  if (body.skeleton.id == 0) right = head;
+  else left = head;
 }
 
 // Scale the joint position data to fit the screen
