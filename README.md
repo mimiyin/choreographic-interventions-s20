@@ -237,7 +237,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Camera CheatSheet](https://docs.google.com/spreadsheets/d/1CwsOeIQtEZOAX-2ZJ3fOwTj-WpvSO4Er8JB7zTxFc34/edit?usp=sharing)
       * Kinect
          * [Hello Kinect Tutorial](https://docs.google.com/document/d/1HrrNaOElv_dlVhkSGX1HxrUk4yp9yb48253uWurIEKE/edit?usp=sharing)
-         * [Kinect Skeleton with Bones](https://editor.p5js.org/move.mimi/sketches/B1K5tsmM4)
+         * [Skeleton_Joints](https://editor.p5js.org/move.mimi/sketches/1KRutvqM)
+         * [Skeleton_Bones](https://editor.p5js.org/move.mimi/sketches/B1pyjUCEG)
 
 ### Assignment
    * Read Chapter 7 of Dynamic Alignment: [Google Books](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false) | [PDF](https://drive.google.com/file/d/0B_lnhZP0dCt8LVZMRXlqNFFQaFk/view?usp=sharing)
@@ -247,6 +248,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
       * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
    * Complete sections 2.0-2.2 of [Chapter 2 of the Workbook](https://docs.google.com/document/d/1U9364QQRfzc_Ijsl-HefyRDAHN8M7_FpZYjrzu3UYoo/edit?usp=sharing)
+   * After you've done the reading and workbook, make a crazy skeleton. Put it up in the p5 editor and point the IP address at 'localhost' and [post a link to it here](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-5-crazy-skeletons).
    * Bring a piece of clothing that alters (confines, expands, distorts) your body to class next week. Look here for inspiration:
       * [Danse Des Masques](https://www.youtube.com/watch?v=mpOdxI1owdQ)
       * [Martha Graham: Lamentations and Satyric Song](https://www.youtube.com/watch?v=npSXDzqwFJg)
@@ -254,8 +256,6 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [David Byrne: Stop Making Sense](https://youtu.be/av3j4WStj2A?t=180)
       * Rei Kawakubo: Shifting your center of gravity. [Scenario by Merce Cunningham](https://www.youtube.com/watch?v=MBlzeehZIeE)
 
-### Coding Assignment
-  * Try running the Kinect Skeleton Examples. Pick 1 example and find 3 ways to modify the code.
 
 ***
 
@@ -271,15 +271,18 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Statue improv: Duets and Trios.
    * Driving interaction through speed and distance.
    * Examples
-      * See Kinect_Azure folder in code repository:
-         * Skeleton_Switch_Joints
-         * Skeleton_Custom_Joints
-         * Skeleton_Distance
-         * Skeleton_Distance_Between_Bodies
-         * Skeleton_Draw_Speed
+      * [averageYs](https://editor.p5js.org/move.mimi/sketches/blUF0nzN)
+      * Get all the code at once in the Kinect_Azure folder of this code repository:
+         * [Skeleton_Joints](https://editor.p5js.org/move.mimi/sketches/1KRutvqM)
+         * [Skeleton_Bones](https://editor.p5js.org/move.mimi/sketches/B1pyjUCEG)
+         * [Skeleton_Position](https://editor.p5js.org/move.mimi/sketches/nQoLdLOP)
+         * [Skeleton_Position_Line](https://editor.p5js.org/move.mimi/sketches/d_fCHnc2)
+         * [Skeleton_Distance_Between_Joints](https://editor.p5js.org/move.mimi/sketches/zZT89afa)
+         * [Skeleton_Distance_Between_Bodies](https://editor.p5js.org/move.mimi/sketches/2QCaKg2G)
+         * [Skeleton_Speed](https://editor.p5js.org/move.mimi/sketches/SGukmYGU)
 
 #### Assignment: Study No. 3 The Joint Dance.
-   * Create a joint dance. If it's a solo, work with speed. If it's a duet, work with distance. [Upload your code here](https://drive.google.com/drive/folders/1K9PzgRpF_8LOja82zmM4KGsyrltfecZD?usp=sharing)
+   * Create a joint dance for up to 3 dancers. [Post write-up and code here.](https://drive.google.com/drive/folders/1K9PzgRpF_8LOja82zmM4KGsyrltfecZD?usp=sharing)
 
 ***
 

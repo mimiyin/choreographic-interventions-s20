@@ -1,6 +1,6 @@
 /*
 Mimi Yin NYU-ITP
-Controlling angle speed with the distance between joints.
+Controlling position of circle with position of joint.
 */
 
  // IP Address of kinectron server
@@ -12,8 +12,8 @@ Controlling angle speed with the distance between joints.
 // Declare kinectron
 let kinectron = null;
 
-// Variables for circle
-let a = 0;
+// Variable for moving line
+let y = 0;
 
 // Joint indices by name
 let PELVIS = 0;
@@ -120,28 +120,15 @@ function bodyTracked(body) {
   let eyeRight = scaleJoint(body.joints[EYE_RIGHT]);
   let earRight = scaleJoint(body.joints[EAR_RIGHT]);
 
-  // Pick 2 joints to connect
-  let start = handRight;
-  let end = handLeft;
+  // Pick a joint to position
+  let joint = handRight;
 
-  // Draw a line
-  stroke(255);
-  line(start.x, start.y, end.x, end.y);
-  let d = dist(start.x, start.y, start.z, end.x, end.y, end.z);
+  // Map join to height of canvas
+  let y = map(joint.y, 100, 200, 0, height);
 
-  // Map the distance to angle speed
-  let aspeed = map(d, 0, width, 0, PI/2);
-  // Inverse, non-linear mapping
-  //let aspeed = 1/d;
-
-  // Move the angle by the angle speed
-  a+=aspeed;
-
-  noStroke();
-	// Calculate circular pathway
-  let x = cos(a)*width/4 + width/2;
-  let y = sin(a)*width/4 + height/2;
-  ellipse(x, y, 5, 5);
+  // Draw a point
+  strokeWeight(20);
+  point(width/2, y);
 }
 
 // Scale the joint position data to fit the screen
@@ -150,9 +137,8 @@ function bodyTracked(body) {
 // 3. Return it as an object literal
 function scaleJoint(joint) {
   return {
-    x: (joint.cameraX * SCL) + width / 2,
-    y: (-joint.cameraY * SCL) + height / 2,
-    z: (joint.cameraX * SCL) + 100
+    x: (joint.cameraX * width / 2) + width / 2,
+    y: (-joint.cameraY * width / 2) + height / 2,
   }
 }
 

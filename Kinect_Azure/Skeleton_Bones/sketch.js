@@ -1,7 +1,7 @@
 /*
 Mimi Yin NYU-ITP
-Controlling angle speed with the distance between joints.
-*/
+Drawing skeleton joints and bones.
+ */
 
  // IP Address of kinectron server
  let IP = "192.168.0.136";
@@ -120,28 +120,9 @@ function bodyTracked(body) {
   let eyeRight = scaleJoint(body.joints[EYE_RIGHT]);
   let earRight = scaleJoint(body.joints[EAR_RIGHT]);
 
-  // Pick 2 joints to connect
-  let start = handRight;
-  let end = handLeft;
-
   // Draw a line
   stroke(255);
-  line(start.x, start.y, end.x, end.y);
-  let d = dist(start.x, start.y, start.z, end.x, end.y, end.z);
-
-  // Map the distance to angle speed
-  let aspeed = map(d, 0, width, 0, PI/2);
-  // Inverse, non-linear mapping
-  //let aspeed = 1/d;
-
-  // Move the angle by the angle speed
-  a+=aspeed;
-
-  noStroke();
-	// Calculate circular pathway
-  let x = cos(a)*width/4 + width/2;
-  let y = sin(a)*width/4 + height/2;
-  ellipse(x, y, 5, 5);
+  line(kneeLeft.x, kneeLeft.y, earRight.x, earRight.y);
 }
 
 // Scale the joint position data to fit the screen
@@ -152,7 +133,6 @@ function scaleJoint(joint) {
   return {
     x: (joint.cameraX * SCL) + width / 2,
     y: (-joint.cameraY * SCL) + height / 2,
-    z: (joint.cameraX * SCL) + 100
   }
 }
 

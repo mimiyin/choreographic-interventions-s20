@@ -1,7 +1,7 @@
 /*
 Mimi Yin NYU-ITP
-Drawing skeleton joints and bones.
- */
+Controlling angle speed with distance between bodies.
+*/
 
 // IP Address of kinectron server
 let IP = "192.168.0.136";
@@ -77,13 +77,14 @@ function draw() {
     // Draw a line
     stroke(255);
     line(start.x, start.y, end.x, end.y);
-    let d = dist(start.x, start.y, end.x, end.y);
+    let d = dist(start.x, start.y, start.z, end.x, end.y, end.z);
 
     // Map the distance to angle speed
     let aspeed = map(d, 0, width, 0, PI / 2);
     // Inverse, non-linear mapping
     //let aspeed = 1/d;
 
+    // Move the angle by the angle speed
     a += aspeed;
 
     noStroke();
@@ -156,6 +157,7 @@ function scaleJoint(joint) {
   return {
     x: (joint.cameraX * width / 2) + width / 2,
     y: (-joint.cameraY * width / 2) + height / 2,
+    z: (joint.cameraX * SCL) + 100
   }
 }
 

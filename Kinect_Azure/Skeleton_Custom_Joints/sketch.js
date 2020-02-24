@@ -91,8 +91,6 @@ let EAR_LEFT = 29;
 let EYE_RIGHT = 30;
 let EAR_RIGHT = 31;
 
-
-
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
