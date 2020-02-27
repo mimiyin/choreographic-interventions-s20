@@ -4,7 +4,7 @@ Drawing skeleton joints.
 */
 
 // IP Address of kinectron server
-let IP = "172.19.139.244";
+let IP = "localhost";
 
 // Scale size of skeleton
 let SCL = 0.5;
@@ -44,23 +44,17 @@ function bodyTracked(body) {
     let joint = joints[j];
     drawJoint(joint);
   }
-
-  // Print which joint is selected
-  noStroke();
-  fill(255);
-  textSize(18);
-  text("RT/LFT to change joints. " + s + ": " + jointNames[s], 10, 20);
 }
 
-
-// Scale the joint position data to fit the screen
+// 0. Scale the joint position data to fit the screen
 // 1. Move it to the center of the screen
-// 2. Flip the x-value to mirror you
+// 2. Flip the x-value to mirror
 // 3. Return it as an object literal
 function scaleJoint(joint) {
   return {
     x: (-joint.cameraX * SCL) + width / 2,
     y: (joint.cameraY * SCL) + height / 2,
+    z: (joint.cameraZ * SCL),
   }
 }
 

@@ -238,7 +238,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Kinect
          * [Hello Kinect Tutorial](https://docs.google.com/document/d/1HrrNaOElv_dlVhkSGX1HxrUk4yp9yb48253uWurIEKE/edit?usp=sharing)
          * [Skeleton_Joints](https://editor.p5js.org/move.mimi/sketches/1KRutvqM)
-         * [Skeleton_Bones](https://editor.p5js.org/move.mimi/sketches/B1pyjUCEG)
+         * [Skeleton_Bones](https://editor.p5js.org/move.mimi/sketches/V5vhdeDp)
 
 ### Assignment
    * Read Chapter 7 of Dynamic Alignment: [Google Books](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false) | [PDF](https://drive.google.com/file/d/0B_lnhZP0dCt8LVZMRXlqNFFQaFk/view?usp=sharing)
@@ -284,7 +284,6 @@ lines[GEORGE].display();
          * [Skeleton_Joints](https://editor.p5js.org/move.mimi/sketches/1KRutvqM)
          * [Skeleton_Bones](https://editor.p5js.org/move.mimi/sketches/B1pyjUCEG)
          * [Skeleton_Position](https://editor.p5js.org/move.mimi/sketches/nQoLdLOP)
-         * [Skeleton_Position_Line](https://editor.p5js.org/move.mimi/sketches/d_fCHnc2)
          * [Skeleton_Distance_Between_Joints](https://editor.p5js.org/move.mimi/sketches/zZT89afa)
          * [Skeleton_Distance_Between_Bodies](https://editor.p5js.org/move.mimi/sketches/2QCaKg2G)
          * [Skeleton_Speed](https://editor.p5js.org/move.mimi/sketches/SGukmYGU)

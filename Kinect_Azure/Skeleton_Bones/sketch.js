@@ -1,10 +1,10 @@
 /*
 Mimi Yin NYU-ITP
 Drawing skeleton joints and bones.
-*/
+ */
 
  // IP Address of kinectron server
- let IP = "192.168.0.136";
+ let IP = "localhost";
 
  // Scale size of skeleton
  let SCL = 0.5;
@@ -75,64 +75,76 @@ function bodyTracked(body) {
   background(0, 10);
 
   // Get all the joints off the tracked body and do something with them
+  let joints = body.skeleton.joints;
 
   // Mid-line
-  let pelvis = scaleJoint(body.joints[PELVIS]);
-  let spineNaval = scaleJoint(body.joints[SPINE_NAVAL]);
-  let spineChest = scaleJoint(body.joints[SPINE_CHEST]);
-  let neck = scaleJoint(body.joints[NECK]);
+  let pelvis = scaleJoint(joints[PELVIS]);
+  let spineNaval = scaleJoint(joints[SPINE_NAVAL]);
+  let spineChest = scaleJoint(joints[SPINE_CHEST]);
+  let neck = scaleJoint(joints[NECK]);
 
   // Left Arm
-  let clavicleLeft = scaleJoint(body.joints[CLAVICLE_LEFT]);
-  let shoulderLeft = scaleJoint(body.joints[SHOULDER_LEFT]);
-  let elbowLeft = scaleJoint(body.joints[ELBOW_LEFT_]);
-  let wristLeft = scaleJoint(body.joints[WRISTLEFT]);
-  let handLeft = scaleJoint(body.joints[HAND_LEFT]);
-  let handTipLeft = scaleJoint(body.joints[HANDTIP_LEFT]);
-  let thumbLeft = scaleJoint(body.joints[THUMB_LEFT]);
+  let clavicleLeft = scaleJoint(joints[CLAVICLE_LEFT]);
+  let shoulderLeft = scaleJoint(joints[SHOULDER_LEFT]);
+  let elbowLeft = scaleJoint(joints[ELBOW_LEFT]);
+  let wristLeft = scaleJoint(joints[WRIST_LEFT]);
+  let handLeft = scaleJoint(joints[HAND_LEFT]);
+  let handTipLeft = scaleJoint(joints[HANDTIP_LEFT]);
+  let thumbLeft = scaleJoint(joints[THUMB_LEFT]);
 
   // Right Arm
-  let clavicleRight = scaleJoint(body.joints[CLAVICLE_LEFT]);
-  let shoulderRight = scaleJoint(body.joints[SHOULDER_RIGHT]);
-  let elbowRight = scaleJoint(body.joints[ELBOW_RIGHT]);
-  let wristRight = scaleJoint(body.joints[WRIST_RIGHT]);
-  let handRight = scaleJoint(body.joints[HAND_RIGHT]);
-  let handTipRight = scaleJoint(body.joints[HANDTIP_RIGHT]);
-  let thumbRight = scaleJoint(body.joints[THUMB_RIGHT]);
+  let clavicleRight = scaleJoint(joints[CLAVICLE_LEFT]);
+  let shoulderRight = scaleJoint(joints[SHOULDER_RIGHT]);
+  let elbowRight = scaleJoint(joints[ELBOW_RIGHT]);
+  let wristRight = scaleJoint(joints[WRIST_RIGHT]);
+  let handRight = scaleJoint(joints[HAND_RIGHT]);
+  let handTipRight = scaleJoint(joints[HANDTIP_RIGHT]);
+  let thumbRight = scaleJoint(joints[THUMB_RIGHT]);
 
   // Left Leg
-  let hipLeft = scaleJoint(body.joints[HIP_LEFT]);
-  let kneeLeft = scaleJoint(body.joints[KNEE_LEFT]);
-  let ankleLeft = scaleJoint(body.joints[ANKLE_LEFT]);
-  let footLeft = scaleJoint(body.joints[FOOT_LEFT]);
+  let hipLeft = scaleJoint(joints[HIP_LEFT]);
+  let kneeLeft = scaleJoint(joints[KNEE_LEFT]);
+  let ankleLeft = scaleJoint(joints[ANKLE_LEFT]);
+  let footLeft = scaleJoint(joints[FOOT_LEFT]);
 
-  // Right Leg
-  let hipRight = scaleJoint(body.joints[HIP_RIGHT]);
-  let kneeRight = scaleJoint(body.joints[KNEE_RIGHT]);
-  let ankleRight = scaleJoint(body.joints[ANKLE_RIGHT]);
-  let footRight = scaleJoint(body.joints[FOOT_RIGHT]);
+  // Right Le
+  let hipRight = scaleJoint(joints[HIP_RIGHT]);
+  let kneeRight = scaleJoint(joints[KNEE_RIGHT])
+  let ankleRight = scaleJoint(joints[ANKLE_RIGHT]);
+  let footRight = scaleJoint(joints[FOOT_RIGHT]);
 
   // Head
-  let head = scaleJoint(body.joints[HEAD]);
-  let nose = scaleJoint(body.joints[NOSE]);
-  let eyeLeft = scaleJoint(body.joints[EYE_LEFT]);
-  let earLeft = scaleJoint(body.joints[EAR_LEFT]);
-  let eyeRight = scaleJoint(body.joints[EYE_RIGHT]);
-  let earRight = scaleJoint(body.joints[EAR_RIGHT]);
+  let head = scaleJoint(joints[HEAD]);
+  let nose = scaleJoint(joints[NOSE]);
+  let eyeLeft = scaleJoint(joints[EYE_LEFT]);
+  let earLeft = scaleJoint(joints[EAR_LEFT]);
+  let eyeRight = scaleJoint(joints[EYE_RIGHT]);
+  let earRight = scaleJoint(joints[EAR_RIGHT]);
 
   // Draw a line
   stroke(255);
   line(kneeLeft.x, kneeLeft.y, earRight.x, earRight.y);
+
+  // Draw a curve
+  noFill();
+  beginShape();
+  curveVertex(nose.x, nose.y)
+  curveVertex(clavicleLeft.x, clavicleLeft.y);
+  curveVertex(kneeRight.x, kneeRight.y);
+  curveVertex(handRight.x, handRight.y);
+  curveVertex(nose.x, nose.y);
+  endShape(CLOSE);
 }
 
-// Scale the joint position data to fit the screen
+// 0. Scale the joint position data to fit the screen
 // 1. Move it to the center of the screen
-// 2. Flip the y-value upside down
+// 2. Flip the x-value to mirror
 // 3. Return it as an object literal
 function scaleJoint(joint) {
   return {
-    x: (joint.cameraX * SCL) + width / 2,
-    y: (-joint.cameraY * SCL) + height / 2,
+    x: (-joint.cameraX * SCL) + width / 2,
+    y: (joint.cameraY * SCL) + height / 2,
+    z: (joint.cameraZ * SCL),
   }
 }
 

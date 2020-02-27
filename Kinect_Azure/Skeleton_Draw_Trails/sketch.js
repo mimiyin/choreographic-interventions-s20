@@ -177,13 +177,14 @@ function keyPressed() {
   if (s < 0) s = jointNames.length-1;
 }
 
-// Scale the joint position data to fit the screen
+// 0. Scale the joint position data to fit the screen
 // 1. Move it to the center of the screen
-// 2. Flip the x-value to mirror you
+// 2. Flip the x-value to mirror
 // 3. Return it as an object literal
 function scaleJoint(joint) {
   return {
     x: (-joint.cameraX * SCL) + width / 2,
     y: (joint.cameraY * SCL) + height / 2,
+    z: (joint.cameraZ * SCL),
   }
 }

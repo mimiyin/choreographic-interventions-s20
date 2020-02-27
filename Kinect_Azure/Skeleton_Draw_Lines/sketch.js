@@ -127,7 +127,7 @@ function bodyTracked(body) {
 
   // If there is a previous position
   if (ppos) {
-    let speed = dist(ppos.x, ppos.y, pos.x, pos.y);
+    let speed = dist(ppos.x, ppos.y, ppos.z, pos.x, pos.y, pos.z);
     let sw = 1;
 
     // 3 ways to set strokeweight according to speed.
@@ -187,13 +187,14 @@ function keyPressed() {
   j = constrain(j, 0, 24);
 }
 
-// Scale the joint position data to fit the screen
+// 0. Scale the joint position data to fit the screen
 // 1. Move it to the center of the screen
-// 2. Flip the x-value to mirror you
+// 2. Flip the x-value to mirror
 // 3. Return it as an object literal
 function scaleJoint(joint) {
   return {
     x: (-joint.cameraX * SCL) + width / 2,
     y: (joint.cameraY * SCL) + height / 2,
+    z: (joint.cameraZ * SCL),
   }
 }

@@ -4,13 +4,16 @@ Controlling angle speed with distance between bodies.
 */
 
 // IP Address of kinectron server
-let IP = "192.168.0.136";
+let IP = "localhost";
 
 // Scale size of skeleton
 let SCL = 0.5;
 
 // Declare kinectron
 let kinectron = null;
+
+// Keep track of bodies
+let bodies = {};
 
 // Variables for start and end points of Distance
 let start;
@@ -65,8 +68,8 @@ function setup() {
   // Connect with application over peer
   kinectron.makeConnection();
 
-  // Request all tracked bodies and pass data to your callback
-  kinectron.startTrackedBodies(bodyTracked);
+  // Request all bodies at once
+  kinectron.startBodies(bodiesTracked);
 
   background(0);
 }
@@ -80,7 +83,7 @@ function draw() {
     let d = dist(start.x, start.y, start.z, end.x, end.y, end.z);
 
     // Map the distance to angle speed
-    let aspeed = map(d, 0, width, 0, PI / 2);
+    let aspeed = map(d, 0, width, -0.1, 0.5);
     // Inverse, non-linear mapping
     //let aspeed = 1/d;
 
@@ -95,69 +98,48 @@ function draw() {
   }
 }
 
-function bodyTracked(body) {
-  background(0, 10);
+// Store all the bodies by body id
+function bodiesTracked(bodies) {
+  for (let b in bodies.bodies) {
+    let body = bodies.bodies[b];
+    bodies[body.id] = body;
+  }
 
-  // Get all the joints off the tracked body and do something with them
-
-  // Mid-line
-  let pelvis = scaleJoint(body.joints[PELVIS]);
-  let spineNaval = scaleJoint(body.joints[SPINE_NAVAL]);
-  let spineChest = scaleJoint(body.joints[SPINE_CHEST]);
-  let neck = scaleJoint(body.joints[NECK]);
-
-  // Left Arm
-  let clavicleLeft = scaleJoint(body.joints[CLAVICLE_LEFT]);
-  let shoulderLeft = scaleJoint(body.joints[SHOULDER_LEFT]);
-  let elbowLeft = scaleJoint(body.joints[ELBOW_LEFT_]);
-  let wristLeft = scaleJoint(body.joints[WRISTLEFT]);
-  let handLeft = scaleJoint(body.joints[HAND_LEFT]);
-  let handTipLeft = scaleJoint(body.joints[HANDTIP_LEFT]);
-  let thumbLeft = scaleJoint(body.joints[THUMB_LEFT]);
-
-  // Right Arm
-  let clavicleRight = scaleJoint(body.joints[CLAVICLE_LEFT]);
-  let shoulderRight = scaleJoint(body.joints[SHOULDER_RIGHT]);
-  let elbowRight = scaleJoint(body.joints[ELBOW_RIGHT]);
-  let wristRight = scaleJoint(body.joints[WRIST_RIGHT]);
-  let handRight = scaleJoint(body.joints[HAND_RIGHT]);
-  let handTipRight = scaleJoint(body.joints[HANDTIP_RIGHT]);
-  let thumbRight = scaleJoint(body.joints[THUMB_RIGHT]);
-
-  // Left Leg
-  let hipLeft = scaleJoint(body.joints[HIP_LEFT]);
-  let kneeLeft = scaleJoint(body.joints[KNEE_LEFT]);
-  let ankleLeft = scaleJoint(body.joints[ANKLE_LEFT]);
-  let footLeft = scaleJoint(body.joints[FOOT_LEFT]);
-
-  // Right Leg
-  let hipRight = scaleJoint(body.joints[HIP_RIGHT]);
-  let kneeRight = scaleJoint(body.joints[KNEE_RIGHT]);
-  let ankleRight = scaleJoint(body.joints[ANKLE_RIGHT]);
-  let footRight = scaleJoint(body.joints[FOOT_RIGHT]);
-
-  // Head
-  let head = scaleJoint(body.joints[HEAD]);
-  let nose = scaleJoint(body.joints[NOSE]);
-  let eyeLeft = scaleJoint(body.joints[EYE_LEFT]);
-  let earLeft = scaleJoint(body.joints[EAR_LEFT]);
-  let eyeRight = scaleJoint(body.joints[EYE_RIGHT]);
-  let earRight = scaleJoint(body.joints[EAR_RIGHT]);
-
-  // Pick 2 joints to connect
-  if (body.skeleton.id == 0) start = footLeft;
-  else end = head;
+  // Individually process each body
+  // that has a skeleton
+  let counter = 0;
+  for (let b in bodies) {
+    let body = bodies[b];
+    if (body.skeleton) {
+      bodyTracked(body, counter);
+      counter++;
+    }
+  }
 }
 
-// Scale the joint position data to fit the screen
+function bodyTracked(body, b) {
+  background(0, 10);
+  // Get all the joints off the tracked body and do something with them
+  let joints = body.skeleton.joints;
+
+  // Pick 2 joints to connect
+  // If it's the first body...
+  if (b == 0) {
+    start = scaleJoint(joints[HAND_LEFT]);
+    //console.log(start);
+  // Otherwise...
+  } else end = scaleJoint(joints[HEAD]);
+}
+
+// 0. Scale the joint position data to fit the screen
 // 1. Move it to the center of the screen
-// 2. Flip the y-value upside down
+// 2. Flip the x-value to mirror
 // 3. Return it as an object literal
 function scaleJoint(joint) {
   return {
-    x: (joint.cameraX * width / 2) + width / 2,
-    y: (-joint.cameraY * width / 2) + height / 2,
-    z: (joint.cameraX * SCL) + 100
+    x: (-joint.cameraX * SCL) + width / 2,
+    y: (joint.cameraY * SCL) + height / 2,
+    z: (joint.cameraZ * SCL),
   }
 }
 

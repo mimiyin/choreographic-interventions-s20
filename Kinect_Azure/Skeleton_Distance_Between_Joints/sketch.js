@@ -75,54 +75,13 @@ function bodyTracked(body) {
   background(0, 10);
 
   // Get all the joints off the tracked body and do something with them
+  let joints = body.skeleton.joints;
 
-  // Mid-line
-  let pelvis = scaleJoint(body.joints[PELVIS]);
-  let spineNaval = scaleJoint(body.joints[SPINE_NAVAL]);
-  let spineChest = scaleJoint(body.joints[SPINE_CHEST]);
-  let neck = scaleJoint(body.joints[NECK]);
 
-  // Left Arm
-  let clavicleLeft = scaleJoint(body.joints[CLAVICLE_LEFT]);
-  let shoulderLeft = scaleJoint(body.joints[SHOULDER_LEFT]);
-  let elbowLeft = scaleJoint(body.joints[ELBOW_LEFT_]);
-  let wristLeft = scaleJoint(body.joints[WRISTLEFT]);
-  let handLeft = scaleJoint(body.joints[HAND_LEFT]);
-  let handTipLeft = scaleJoint(body.joints[HANDTIP_LEFT]);
-  let thumbLeft = scaleJoint(body.joints[THUMB_LEFT]);
-
-  // Right Arm
-  let clavicleRight = scaleJoint(body.joints[CLAVICLE_LEFT]);
-  let shoulderRight = scaleJoint(body.joints[SHOULDER_RIGHT]);
-  let elbowRight = scaleJoint(body.joints[ELBOW_RIGHT]);
-  let wristRight = scaleJoint(body.joints[WRIST_RIGHT]);
-  let handRight = scaleJoint(body.joints[HAND_RIGHT]);
-  let handTipRight = scaleJoint(body.joints[HANDTIP_RIGHT]);
-  let thumbRight = scaleJoint(body.joints[THUMB_RIGHT]);
-
-  // Left Leg
-  let hipLeft = scaleJoint(body.joints[HIP_LEFT]);
-  let kneeLeft = scaleJoint(body.joints[KNEE_LEFT]);
-  let ankleLeft = scaleJoint(body.joints[ANKLE_LEFT]);
-  let footLeft = scaleJoint(body.joints[FOOT_LEFT]);
-
-  // Right Leg
-  let hipRight = scaleJoint(body.joints[HIP_RIGHT]);
-  let kneeRight = scaleJoint(body.joints[KNEE_RIGHT]);
-  let ankleRight = scaleJoint(body.joints[ANKLE_RIGHT]);
-  let footRight = scaleJoint(body.joints[FOOT_RIGHT]);
-
-  // Head
-  let head = scaleJoint(body.joints[HEAD]);
-  let nose = scaleJoint(body.joints[NOSE]);
-  let eyeLeft = scaleJoint(body.joints[EYE_LEFT]);
-  let earLeft = scaleJoint(body.joints[EAR_LEFT]);
-  let eyeRight = scaleJoint(body.joints[EYE_RIGHT]);
-  let earRight = scaleJoint(body.joints[EAR_RIGHT]);
 
   // Pick 2 joints to connect
-  let start = handRight;
-  let end = handLeft;
+  let start = scaleJoint(joints[EAR_RIGHT]);
+  let end = scaleJoint(joints[HAND_LEFT]);
 
   // Draw a line
   stroke(255);
@@ -144,15 +103,15 @@ function bodyTracked(body) {
   ellipse(x, y, 5, 5);
 }
 
-// Scale the joint position data to fit the screen
+// 0. Scale the joint position data to fit the screen
 // 1. Move it to the center of the screen
-// 2. Flip the y-value upside down
+// 2. Flip the x-value to mirror
 // 3. Return it as an object literal
 function scaleJoint(joint) {
   return {
-    x: (joint.cameraX * SCL) + width / 2,
-    y: (-joint.cameraY * SCL) + height / 2,
-    z: (joint.cameraX * SCL) + 100
+    x: (-joint.cameraX * SCL) + width / 2,
+    y: (joint.cameraY * SCL) + height / 2,
+    z: (joint.cameraZ * SCL),
   }
 }
 
