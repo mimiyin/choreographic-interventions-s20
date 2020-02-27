@@ -262,7 +262,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
    ```javascript
     lines[GEORGE].update();
-    lines[GEORGE].display()```
+    lines[GEORGE].display();
+    ```
 
 ***
 
