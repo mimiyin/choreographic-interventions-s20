@@ -258,7 +258,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
 ### Barnard Coding Assignments
    * Example from class: [Array of Line() objects](https://editor.p5js.org/move.mimi/sketches/JVcNHAB6)
-   * Replace lines 48-53 of the example above so that you can update and display individual lines by name.
+   * Replace lines 48-53 of the example above so that you can update and display individual lines by name. What else do you need to add to make that work?
 
 ```javascript
 lines[GEORGE].update();
