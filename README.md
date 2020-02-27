@@ -318,6 +318,7 @@ lines[GEORGE].display();
       * What are all the ways in which Kylian is working with space? How are the spaces defined?
       * Why angular spaces? Why sharp edges? How would it be different if he used more traditional spotlights?
 
+***
 
 ## Week 8: Space | Defining Space With Bodies
 
