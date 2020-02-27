@@ -271,7 +271,6 @@ lines[GEORGE].display();
 
 ### Questions
    * How can we re-architect the body?
-   * What is the body made of?
    * How can a body choreograph interaction? How can interaction choreograph a body?
 
 ### In-class
