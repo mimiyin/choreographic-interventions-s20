@@ -235,6 +235,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Hello Kinect Skeleton
    * Resources
       * [Review Object Literals](https://www.youtube.com/watch?v=-e5h4IGKZRY&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=207s)
+      * Review [for of loop](https://www.youtube.com/watch?v=Y8sMnRQYr3c)
       * [Camera CheatSheet](https://docs.google.com/spreadsheets/d/1CwsOeIQtEZOAX-2ZJ3fOwTj-WpvSO4Er8JB7zTxFc34/edit?usp=sharing)
       * Kinect
          * [Hello Kinect Tutorial](https://docs.google.com/document/d/1HrrNaOElv_dlVhkSGX1HxrUk4yp9yb48253uWurIEKE/edit?usp=sharing)
