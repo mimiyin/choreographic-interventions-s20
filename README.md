@@ -251,7 +251,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
       * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
    * Complete sections 2.0-2.2 of [Chapter 2 of the Workbook](https://docs.google.com/document/d/1U9364QQRfzc_Ijsl-HefyRDAHN8M7_FpZYjrzu3UYoo/edit?usp=sharing)
-   * After you've done the reading and workbook, make a crazy skeleton. Put it up in the p5 editor and point the IP address at 'localhost' and [post a link to it here](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-5-crazy-skeletons).
+   * After you've done the reading and workbook, make a crazy skeleton. Start with the [Skeleton_Bones](https://editor.p5js.org/move.mimi/sketches/V5vhdeDp) example. Put it up in the p5 editor and point the IP address at 'localhost' and [post a link to it here](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-5-crazy-skeletons).
    * Bring a piece of clothing that alters (confines, expands, distorts) your body to class next week. Look here for inspiration:
       * [Danse Des Masques](https://www.youtube.com/watch?v=mpOdxI1owdQ)
       * [Martha Graham: Lamentations and Satyric Song](https://www.youtube.com/watch?v=npSXDzqwFJg)
