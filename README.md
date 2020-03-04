@@ -239,6 +239,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Camera CheatSheet](https://docs.google.com/spreadsheets/d/1CwsOeIQtEZOAX-2ZJ3fOwTj-WpvSO4Er8JB7zTxFc34/edit?usp=sharing)
       * Kinect
          * [Hello Kinect Tutorial](https://docs.google.com/document/d/1HrrNaOElv_dlVhkSGX1HxrUk4yp9yb48253uWurIEKE/edit?usp=sharing)
+         * [Keyboard Shortcut Friends](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Keyboard-Shortcut-Friends)
          * [Skeleton_Joints](https://editor.p5js.org/move.mimi/sketches/1KRutvqM)
          * [Skeleton_Bones](https://editor.p5js.org/move.mimi/sketches/V5vhdeDp)
 
@@ -261,6 +262,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### Barnard Coding Assignments
    * Example from class: [Array of Line() objects](https://editor.p5js.org/move.mimi/sketches/JVcNHAB6)
    * Replace lines 48-53 of the example above so that you can update and display individual lines by name. What else do you need to add to make that work?
+   * [Post a link to your sketch here](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-5-naming-your-objects)
 
 ```javascript
 lines[GEORGE].update();
