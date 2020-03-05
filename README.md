@@ -242,6 +242,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
          * [Keyboard Shortcut Friends](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Keyboard-Shortcut-Friends)
          * [Skeleton_Joints](https://editor.p5js.org/move.mimi/sketches/1KRutvqM)
          * [Skeleton_Bones](https://editor.p5js.org/move.mimi/sketches/V5vhdeDp)
+         * [Recorded_Skeleton](https://editor.p5js.org/move.mimi/sketches/N91JQYwE)
 
 ### Assignment
    * Read Chapter 7 of Dynamic Alignment: [Google Books](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false) | [PDF](https://drive.google.com/file/d/0B_lnhZP0dCt8LVZMRXlqNFFQaFk/view?usp=sharing)
