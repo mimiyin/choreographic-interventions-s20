@@ -8,7 +8,7 @@ Controlling position of circle with position of joint.
 let IP = "localhost";
 
 // Scale size of skeleton
-let SCL = 0.5;
+let SCL = 0.25;
 
 // Declare kinectron
 let kinectron = null;
@@ -72,12 +72,9 @@ function draw() {
   //Nothing to see here
 }
 
-function bodiesTracked(bodies) {
-  background(0, 10);
-  bodies = bodies.bodies;
-}
-
 function bodyTracked(body) {
+  background(0, 10);
+
   // Get all the joints off the tracked body and do something with them
   let joints = body.skeleton.joints;
 
