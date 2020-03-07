@@ -293,7 +293,7 @@ lines[GEORGE].display();
          * [Skeleton_Speed](https://editor.p5js.org/move.mimi/sketches/SGukmYGU)
 
 #### Assignment: Study No. 3 The Joint Dance.
-   * Create a joint dance for up to 3 dancers. [Post write-up and code here.](https://drive.google.com/drive/folders/1K9PzgRpF_8LOja82zmM4KGsyrltfecZD?usp=sharing)
+   * Create a joint dance for up to 3 dancers. [See guidelines.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/The-Joint-Dance-Assignment) [Post write-up and code here.](https://drive.google.com/drive/folders/1K9PzgRpF_8LOja82zmM4KGsyrltfecZD?usp=sharing)
 
 ***
 
