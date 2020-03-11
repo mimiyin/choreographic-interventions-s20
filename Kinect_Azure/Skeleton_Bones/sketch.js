@@ -4,7 +4,7 @@ Drawing skeleton joints and bones.
  */
 
  // IP Address of kinectron server
- let IP = "localhost";
+ let IP = "192.168.0.136";
 
  // Scale size of skeleton
  let SCL = 0.5;

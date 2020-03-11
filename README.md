@@ -297,9 +297,31 @@ lines[GEORGE].display();
 
 ***
 
+## Week 7: The Joint Dance
+   * Workshop The Joint Dance.
+   * Introduce ml5.js and Posenet
+   * Introduce phone sensors
+
+### Questions
+   * What are we doing with ourselves for the next 6 weeks?
+   * How do we keep working remotely in a meaningful way?
+
+### Examples
+   * [PoseNet Basic](https://editor.p5js.org/move.mimi/sketches/le03hSIy)
+   * [PoseNet Position](https://editor.p5js.org/move.mimi/sketches/7TAXxMtv)
+   * [PoseNet Distance](https://editor.p5js.org/move.mimi/sketches/b8C1Wj2j)
+   * [Phone Sensors](https://editor.p5js.org/move.mimi/sketches/nDlPJuvL)
+
+### Resources
+   * [ml5.js PoseNet](https://ml5js.org/reference/api-PoseNet/)
+   * [ml5.js PoseNet Video Tutorial](https://www.youtube.com/watch?v=EA3-k9mnLHs) | [Code](https://github.com/ml5js/ml5-examples/tree/master/p5js/PoseNet/PoseNet_webcam)
+   * [Debugging iOS](https://raygun.com/blog/debug-javascript-mobile-safari/)
+   * [Debugging Android](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/)
+
+***
+
 ## Week 7: Space | Boundaries and Divisions
 
-   * Workshop The Joint Dance.
 
 ### Questions
    * What are the parameters of space?
