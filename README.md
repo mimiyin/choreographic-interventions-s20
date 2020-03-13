@@ -299,7 +299,7 @@ lines[GEORGE].display();
 
 ## Week 7: The Joint Dance
    * Workshop The Joint Dance.
-   * Introduce ml5.js and Posenet
+   * Introduce webcam based skeleton tracking with ml5.js and Posenet
    * Introduce phone sensors
 
 ### Questions
@@ -313,10 +313,11 @@ lines[GEORGE].display();
 
 
 ### Examples
-   * [PoseNet Basic](https://editor.p5js.org/move.mimi/sketches/le03hSIy)
-   * [PoseNet Position](https://editor.p5js.org/move.mimi/sketches/7TAXxMtv)
-   * [PoseNet Distance](https://editor.p5js.org/move.mimi/sketches/b8C1Wj2j)
-   * [PoseNet Distance Between Bodies](https://editor.p5js.org/move.mimi/sketches/EVqNe1J_)
+   * Webcam Based Skeleton Tracking
+      * [PoseNet Basic](https://editor.p5js.org/move.mimi/sketches/le03hSIy)
+      * [PoseNet Position](https://editor.p5js.org/move.mimi/sketches/7TAXxMtv)
+      * [PoseNet Distance](https://editor.p5js.org/move.mimi/sketches/b8C1Wj2j)
+      * [PoseNet Distance Between Bodies](https://editor.p5js.org/move.mimi/sketches/EVqNe1J_)
    * [Phone Sensors](https://editor.p5js.org/move.mimi/sketches/nDlPJuvL)
 
 ### Resources
