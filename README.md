@@ -298,7 +298,7 @@ lines[GEORGE].display();
 ***
 
 ## Week 7: The Joint Dance
-   * Workshop The Joint Dance.
+   * Workshop The Joint Dance. | [Google Slides](https://docs.google.com/presentation/d/1UYTgPfwuOtikb5kIf122pvambWOgYL-dAgblNMcSjHw/edit?usp=sharing)
    * Introduce ml5.js and Posenet
    * Introduce phone sensors
 
