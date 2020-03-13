@@ -304,6 +304,7 @@ lines[GEORGE].display();
 
 ### Questions
    * What are we doing with ourselves for the next 6 weeks?
+      * [Online Class Protocols](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Online-Class-Protocols)
       * [Shared Class Work Folder](https://drive.google.com/drive/folders/19q4Nox9VtAismXWADAtC_kaNBc0Ujpc3?usp=sharing)
    * Building a Choreography Sketchbook
       * [Google Slides Template](https://docs.google.com/presentation/d/1UYTgPfwuOtikb5kIf122pvambWOgYL-dAgblNMcSjHw/edit?usp=sharing)
