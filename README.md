@@ -304,6 +304,7 @@ lines[GEORGE].display();
 
 ### Questions
    * What are we doing with ourselves for the next 6 weeks?
+      * [Shared Class Work Folder](https://drive.google.com/drive/folders/19q4Nox9VtAismXWADAtC_kaNBc0Ujpc3?usp=sharing)
    * Building a Choreography Sketchbook
       * [Google Slides Template](https://docs.google.com/presentation/d/1UYTgPfwuOtikb5kIf122pvambWOgYL-dAgblNMcSjHw/edit?usp=sharing)
       * [Movement Research Exercises](https://www.google.com/url?q=https://github.com/mimiyin/choreographic-interventions-s20/wiki/Movement-Exploration-Exercises&sa=D&source=hangouts&ust=1584191473172000&usg=AFQjCNGz_vw2GonbOQ8MIw6rKYRswGs0hg)
