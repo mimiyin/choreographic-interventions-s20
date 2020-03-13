@@ -307,6 +307,7 @@ lines[GEORGE].display();
    * Building a Choreography Sketchbook
       * [Google Slides Template](https://docs.google.com/presentation/d/1UYTgPfwuOtikb5kIf122pvambWOgYL-dAgblNMcSjHw/edit?usp=sharing)
       * [Movement Research Exercises](https://www.google.com/url?q=https://github.com/mimiyin/choreographic-interventions-s20/wiki/Movement-Exploration-Exercises&sa=D&source=hangouts&ust=1584191473172000&usg=AFQjCNGz_vw2GonbOQ8MIw6rKYRswGs0hg)
+      * [Batsheva Dance Company](https://www.youtube.com/watch?v=QuWr-lZ0BiE) | [Gaga](https://www.youtube.com/watch?v=OGPG1QL1vJc) | [Mr. Gaga Documentary](https://itunes.apple.com/us/movie/mr-gaga/id1235462155)
       * [Twyla Tharp's Choreographic Sketching Techniques](https://www.youtube.com/watch?v=JpGeHgZYrPA)
 
 
