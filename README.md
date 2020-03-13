@@ -298,13 +298,17 @@ lines[GEORGE].display();
 ***
 
 ## Week 7: The Joint Dance
-   * Workshop The Joint Dance. | [Google Slides](https://docs.google.com/presentation/d/1UYTgPfwuOtikb5kIf122pvambWOgYL-dAgblNMcSjHw/edit?usp=sharing)
+   * Workshop The Joint Dance.
    * Introduce ml5.js and Posenet
    * Introduce phone sensors
 
 ### Questions
    * What are we doing with ourselves for the next 6 weeks?
-   * How do we keep working remotely in a meaningful way?
+   * Building a Choreography Sketchbook
+      * [Google Slides Template](https://docs.google.com/presentation/d/1UYTgPfwuOtikb5kIf122pvambWOgYL-dAgblNMcSjHw/edit?usp=sharing)
+      * [Movement Research Exercises](https://www.google.com/url?q=https://github.com/mimiyin/choreographic-interventions-s20/wiki/Movement-Exploration-Exercises&sa=D&source=hangouts&ust=1584191473172000&usg=AFQjCNGz_vw2GonbOQ8MIw6rKYRswGs0hg)
+      * [Twyla Tharp's Choreographic Sketching Techniques](https://www.youtube.com/watch?v=JpGeHgZYrPA)
+
 
 ### Examples
    * [PoseNet Basic](https://editor.p5js.org/move.mimi/sketches/le03hSIy)
