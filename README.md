@@ -293,7 +293,7 @@ lines[GEORGE].display();
          * [Skeleton_Speed](https://editor.p5js.org/move.mimi/sketches/SGukmYGU)
 
 #### Assignment: Study No. 3 The Joint Dance.
-   * Create a joint dance for up to 3 dancers. [See guidelines.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/The-Joint-Dance-Assignment) [Post write-up and code here.](https://drive.google.com/drive/folders/1K9PzgRpF_8LOja82zmM4KGsyrltfecZD?usp=sharing)
+   * Create a joint dance for up to 3 dancers. [See guidelines.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/The-Joint-Dance-Assignment) [Post write-up and code here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-6-the-joint-dance)
 
 ***
 
@@ -324,6 +324,16 @@ lines[GEORGE].display();
    * [ml5.js PoseNet Video Tutorial](https://www.youtube.com/watch?v=EA3-k9mnLHs) | [Code](https://github.com/ml5js/ml5-examples/tree/master/p5js/PoseNet/PoseNet_webcam)
    * [Debugging iOS](https://raygun.com/blog/debug-javascript-mobile-safari/)
    * [Debugging Android](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/)
+   * How to screen record: [Mac](https://support.apple.com/guide/quicktime-player/record-your-screen-qtp97b08e666/mac) | [iOS](https://support.apple.com/en-us/HT207935) | [Windows](https://betanews.com/2019/01/14/windows-10-screen-recorder-ultility/) | [Android](https://www.digitaltrends.com/mobile/how-to-screen-record-in-android/)
+
+#### Assignment: Study No. 3 The Joint Dance.
+    * Create a joint dance for up to 3 dancers. [See guidelines.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/The-Joint-Dance-Assignment)
+       * Record the dance.
+       * Record the screen.
+       * Record the sound.
+       * Throw it all into a single video.
+   * [Post the final video to your sketchbook here.](https://docs.google.com/presentation/d/1UYTgPfwuOtikb5kIf122pvambWOgYL-dAgblNMcSjHw/edit?usp=sharing)
+)
 
 ***
 
