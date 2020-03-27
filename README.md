@@ -355,6 +355,7 @@ lines[GEORGE].display();
    * How do these spaces re-define the relationship between performer and audience?
 
 ### In-class
+   * [Notes](https://docs.google.com/document/d/1YFToo_71gc418nb8LKbcQlz98qh_mqAsMvC2Ifv-Y_k/edit?usp=sharing)
    * Critique The Joint Dance
    * Chair improv
    * Preview new technologies
