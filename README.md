@@ -365,7 +365,7 @@ lines[GEORGE].display();
         * [Embedding Youtube LiveStream in your sketch](https://editor.p5js.org/move.mimi/sketches/5cD3skl62) | [How to use Youtube LiveStream.](https://creatoracademy.youtube.com/page/lesson/livestream-production?cid=livestream&hl=en)
 
 ### Assignment: Explore Online-As-Space
-  * Write a short response to the following examples of online performance. (~3-5 sentences about each example.) What's the angle? Would it be possible in a live theater set-up? Would it be the same performance? What would be lost? [Post a link to your writing response here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-8-response-to-online-performances)
+  * Write a short response to the following examples of online performance. (~3-5 sentences about each example.) What's the angle? Would it be possible in a live theater set-up? Would it be the same performance? What would be lost? Add a 4th of your own to analyze. It doesn't need to be a dance performance. [Post a link to your writing response here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-8-response-to-online-performances)
      * [Daniel Linehan @The Tate](https://www.youtube.com/watch?v=Z-Tk7z692hM)
      * [ASMR Boyfriend](https://www.nytimes.com/2019/10/02/style/asmr-boyfriend-sleep-videos.html)
      * [Exquisite Corps](https://creative-capital.org/2016/07/06/42-choreographers-performing-1-dance-exquisite-corps/)
