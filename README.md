@@ -358,7 +358,7 @@ lines[GEORGE].display();
    * Critique The Joint Dance
    * Chair improv
    * Preview new technologies
-        * [Streaming skeleton data](https://glitch.com/~share-skeletons) between remote performers and audience members
+        * [Streaming Skeleton](https://glitch.com/~share-skeletons) data between remote performers and audience members
         * [Face-Tracking](https://editor.p5js.org/move.mimi/sketches/x5rDnPnCP)
         * [Hand-Tracking](https://editor.p5js.org/move.mimi/sketches/N4wb3v6EI)
         * [WebRTC for building your own live streaming interface](https://glitch.com/~stream-video-skeleton)
@@ -381,7 +381,7 @@ lines[GEORGE].display();
    * Discuss online performances
    * Critique chair dances
    * Introduce new technologies
-      * [Streaming skeleton data](https://glitch.com/~share-skeletons) between remote performers and audience members
+      * [Streaming Skeleton](https://glitch.com/~share-skeletons) data between remote performers and audience members
       * [Face-Tracking](https://editor.p5js.org/move.mimi/sketches/x5rDnPnCP)
       * [Hand-Tracking](https://editor.p5js.org/move.mimi/sketches/N4wb3v6EI)
       * [WebRTC for building your own live streaming interface](https://glitch.com/~stream-video-skeleton)
@@ -390,7 +390,7 @@ lines[GEORGE].display();
 
 ### Assignment: Hello Glitch
    * Watch video tutorials (coming soon!)
-   * Try to combine Streaming skeleton data with either Face-Tracking or Hand-Tracking. [Post a link to your project on Glitch here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-9-hello-glitch)
+   * Try to combine [Streaming Skeleton](https://glitch.com/~share-skeletons) with either [Face-Tracking](https://editor.p5js.org/move.mimi/sketches/x5rDnPnCP) or [Hand-Tracking](https://editor.p5js.org/move.mimi/sketches/N4wb3v6EI). [Post a link to your Glitch project.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-9-hello-glitch)
    * Collect source material this week: Sound, visuals, video, choreography, text, diagrams, drawings, storyboards and stick them in your folder on Google Drive. (I will send out an invite to a shared folder.)
 
 Over the next 4 weeks, in groups of 2-4, create an online dance performance that includes at least 1 performer and 1 audience member. You may make use of Zoom. There are no limitations on duration.
