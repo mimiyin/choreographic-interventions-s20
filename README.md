@@ -391,7 +391,7 @@ lines[GEORGE].display();
 ### Assignment: Hello Glitch
    * Watch video tutorials (coming soon!)
    * Try to combine [Streaming Skeleton](https://glitch.com/~share-skeletons) with either [Face-Tracking](https://editor.p5js.org/move.mimi/sketches/x5rDnPnCP) or [Hand-Tracking](https://editor.p5js.org/move.mimi/sketches/N4wb3v6EI). [Post a link to your Glitch project.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-9-hello-glitch)
-   * Collect source material this week: Sound, visuals, video, choreography, text, diagrams, drawings, storyboards and stick them in your folder on Google Drive. (I will send out an invite to a shared folder.)
+   * Collect source material this week. Divide and conquer but cover all of these areas: Ideas for physical set-up. Explorations of camera angles. Sound, visuals, video, text. Drawings of choreographic ideas and videos of movement research. Stick them all in your folder on Google Drive. (I will send out an invite to a shared folder.)
 
 Over the next 4 weeks, in groups of 2-4, create an online dance performance that includes at least 1 performer and 1 audience member. You may make use of Zoom. There are no limitations on duration.
 
