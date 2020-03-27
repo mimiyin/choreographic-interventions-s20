@@ -340,8 +340,8 @@ lines[GEORGE].display();
 
 ***
 
-## Optional Position Tracking material   
-  * Hello Projection Mapping: [The Set-up Tutorial](https://docs.google.com/document/d/1AfvvrWhMHGnw0MrYqgiqzsV0DenL0p5vWmfQXM3Jp2U/edit?usp=sharing) | [The Code Tutorial](https://docs.google.com/document/d/1LRiMMuZEeP8klj9GwHv8eBclAnLrMqXvh_qrSldWehs/edit?usp=sharing) | [p5 Tutorial](https://docs.google.com/document/d/1b8FelamwrUIGWBpiycag3Jxyt6RHaUOjz0JxWzwJ6DU/edit?usp=sharing)
+## Optional Position Tracking Material   
+   * Hello Projection Mapping: [Video Tutorials](https://drive.google.com/drive/folders/1ocywqENnmYiWMQuVAvhMwkyV_1NBeTHp?usp=sharing) | [The Set-up Tutorial](https://docs.google.com/document/d/1AfvvrWhMHGnw0MrYqgiqzsV0DenL0p5vWmfQXM3Jp2U/edit?usp=sharing) | [The Code Tutorial](https://docs.google.com/document/d/1LRiMMuZEeP8klj9GwHv8eBclAnLrMqXvh_qrSldWehs/edit?usp=sharing) | [p5 Tutorial](https://docs.google.com/document/d/1b8FelamwrUIGWBpiycag3Jxyt6RHaUOjz0JxWzwJ6DU/edit?usp=sharing)
    * [Processing Base Examples](https://drive.google.com/file/d/1_yZ6JpO-zt14DCC9UCKTcvKHNymYPuGa/view?usp=sharing)
 
 ***
