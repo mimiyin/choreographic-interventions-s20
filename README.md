@@ -356,6 +356,7 @@ lines[GEORGE].display();
 
 ### In-class
    * [Notes](https://docs.google.com/document/d/1YFToo_71gc418nb8LKbcQlz98qh_mqAsMvC2Ifv-Y_k/edit?usp=sharing)
+   * [Recording of Last Hour of Class](https://nyu.zoom.us/rec/share/vZVKKbLw51FObJHvslD6dIRmN7W0eaa8gXVP-KVYxRn4fV9_x9pn_1E3UUUHUN4Y?startTime=1585339581000)
    * Critique The Joint Dance
    * Chair improv
    * Preview new technologies
@@ -366,14 +367,13 @@ lines[GEORGE].display();
         * [Embedding Youtube LiveStream in your sketch](https://editor.p5js.org/move.mimi/sketches/5cD3skl62) | [How to use Youtube LiveStream.](https://creatoracademy.youtube.com/page/lesson/livestream-production?cid=livestream&hl=en)
 
 ### Assignment: Explore Online-As-Space
-  * Write a short response to the following examples of online performance. (~3-5 sentences about each example.) What's the angle? Would it be possible in a live theater set-up? Would it be the same performance? What would be lost? Add a 4th of your own to analyze. It doesn't need to be a dance performance. [Post a link to your writing response here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-8-response-to-online-performances)
-     * [Daniel Linehan @The Tate](https://www.youtube.com/watch?v=Z-Tk7z692hM)
-     * [ASMR Boyfriend](https://www.nytimes.com/2019/10/02/style/asmr-boyfriend-sleep-videos.html)
-     * [Exquisite Corps](https://creative-capital.org/2016/07/06/42-choreographers-performing-1-dance-exquisite-corps/)
-  * Make a 3-minute chair dance. [Please post your video here by noon next Friday.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-8-the-chair-dance) Incorporate at least 1 of the techniques from the following:
-     * [Re: Rosas](https://www.rosasdanstrosas.be/home/)| [Original Dance](https://www.youtube.com/watch?v=oQCTbCcSxis)
-     * [Exquisite Corps](https://creative-capital.org/2016/07/06/42-choreographers-performing-1-dance-exquisite-corps/)
-  * Think about who you would like to work with on the final project. (I will send out link to spreadsheet.)
+   * Play with the examples above.
+   * Write a short response to the following examples of online performance. (~3-5 sentences about each example.) What's the angle? Would it be possible in a live theater set-up? Would it be the same performance? What would be lost? Add a 4th of your own to analyze. It doesn't need to be a dance performance. It doesn't even need to be good! Just thought provoking about the medium. [Post a link to your writing response here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-8-response-to-online-performances)
+      * [Daniel Linehan @The Tate](https://www.youtube.com/watch?v=Z-Tk7z692hM)
+      * [ASMR Boyfriend](https://www.nytimes.com/2019/10/02/style/asmr-boyfriend-sleep-videos.html)
+      * [Exquisite Corps](https://creative-capital.org/2016/07/06/42-choreographers-performing-1-dance-exquisite-corps/)
+   * Chair Dance Study: Create 3 movements where each of the 6 parameters we identified is specified. Practice each movement until it feels like a movement. Connect them together in a pattern. Video yourself repeating the pattern 5 times. [Please post your video here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-8-the-chair-dance)
+   * Think about who you would like to work with on the final project. (I will send out link to spreadsheet.)
 
 
 ***
@@ -391,14 +391,81 @@ lines[GEORGE].display();
 
 ### Assignment: Hello Glitch
    * Watch video tutorials (coming soon!)
-   * Try to combine [Streaming Skeleton](https://glitch.com/~share-skeletons) with either [Face-Tracking](https://editor.p5js.org/move.mimi/sketches/x5rDnPnCP) or [Hand-Tracking](https://editor.p5js.org/move.mimi/sketches/N4wb3v6EI). [Post a link to your Glitch project.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-9-hello-glitch)
-   * Collect source material this week. Divide and conquer but cover all of these areas: Ideas for physical set-up. Explorations of camera angles. Sound, visuals, video, text. Drawings of choreographic ideas and videos of movement research. Stick them all in your folder on Google Drive. (I will send out an invite to a shared folder.)
+   * If you're feeling good about the tutorials, try to combine [Streaming Skeleton](https://glitch.com/~share-skeletons) with either [Face-Tracking](https://editor.p5js.org/move.mimi/sketches/x5rDnPnCP) or [Hand-Tracking](https://editor.p5js.org/move.mimi/sketches/N4wb3v6EI). [Post a link to your Glitch project.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-9-hello-glitch)
+   * Make a 30-90 second chair dance. Incorporate at least 1 of the techniques from the following:
+      * [Re: Rosas](https://www.rosasdanstrosas.be/home/)| [Original Dance](https://www.youtube.com/watch?v=oQCTbCcSxis)
+      * [Exquisite Corps](https://creative-capital.org/2016/07/06/42-choreographers-performing-1-dance-exquisite-corps/)
+  * Start to collect source material this week. Divide and conquer but cover all of these areas: Ideas for physical set-up. Explorations of camera angles. Sound, visuals, video, text. Drawings of choreographic ideas and videos of movement research. Stick them all in your folder on Google Drive. (I will send out an invite to a shared folder.)
 
-Over the next 4 weeks, in groups of 2-4, create an online dance performance that includes at least 1 performer and 1 audience member. You may make use of Zoom. There are no limitations on duration.
+Over the next 3 weeks, in groups of 2-4, create an online dance performance that includes at least 1 performer and 1 audience member. You may make use of Zoom. There are no limitations on duration.
 
 ## Project Development: Weeks 10, 11, 12
 
 ## Showing: Week 12
+
+***
+***
+ # Original Weeks 8-12 of the Syllabus
+ ## Week 7: Space | Boundaries and Divisions
+
+
+### Questions
+   * What are the parameters of space?
+   * What are all the ways to define a space?
+   * What are all the ways to interact with a space?
+   * What are all the ways to divide a space?
+   * What are all the ways to define a boundary?
+   * What's the difference between a division and a boundary?
+
+### In-class
+   * Interacting with Divisions / Boundaries / Areas
+      * [Grid](https://editor.p5js.org/move.mimi/embed/rkqzUaPfN)
+      * [Moving Bisect](https://editor.p5js.org/move.mimi/embed/ryEOkt8cM)
+      * [Growing Circle](https://editor.p5js.org/move.mimi/embed/DTQLAvI3k)
+      * [Moving Triptych](https://editor.p5js.org/move.mimi/sketches/Ymvrd03ZB) | [Fullscreen](https://editor.p5js.org/move.mimi/embed/Ymvrd03ZB)
+
+### Assignment
+   * Complete [Chapter 3.0-3.3](https://drive.google.com/open?id=1ueGcKiBvVp2HrAux6cHHyAWYcynpyXLiIQFlgpG4d48) of the Workbook   
+   * Watch: Jiri Kylian | NDT : [Sweet Dreams](http://www.numeridanse.tv/en/video/1046_sweet-dreams)
+      * What are all the ways in which Kylian is working with space? How are the spaces defined?
+      * Why angular spaces? Why sharp edges? How would it be different if he used more traditional spotlights?
+
+***
+
+## Week 8: Space | Defining Space With Bodies
+
+### Questions
+   * Are defining and interacting with space the same thing?
+   * Does one preclude the other?
+
+### In-class
+   * Interactive Divisions, Boundaries and Areas
+      * Ways to calculate divisions / boundaries / areas | [Tutorial]([Tutorial](https://docs.google.com/document/d/1NkRgb56ZfhYTfEWJeDP13mSJaFOxf3_zd28EpROFdyM/edit?usp=sharing))
+      * Watch [Videos 1-3: Transformations](https://www.youtube.com/watch?v=o9sgjuh-CBM&list=PLRqwX-V7Uu6ZmA-d3D0iFIvgrB5_7kB8H) | [Video 9.22: Drawing Custom Shapes](https://www.youtube.com/watch?v=76fiD5DvzeQ)
+      * [3 Ways To Divide](https://editor.p5js.org/move.mimi/sketches/B19tAALGV)
+      * [3 Boundaries](https://editor.p5js.org/move.mimi/sketches/r1oBxkPMV)
+      * [Semi-exclusionary Square](https://editor.p5js.org/move.mimi/sketches/r186x1Dz4)
+   * Hello Projection Mapping: [Video Tutorials](https://drive.google.com/drive/folders/1ocywqENnmYiWMQuVAvhMwkyV_1NBeTHp?usp=sharing) | [The Set-up Tutorial](https://docs.google.com/document/d/1AfvvrWhMHGnw0MrYqgiqzsV0DenL0p5vWmfQXM3Jp2U/edit?usp=sharing) | [The Code Tutorial](https://docs.google.com/document/d/1LRiMMuZEeP8klj9GwHv8eBclAnLrMqXvh_qrSldWehs/edit?usp=sharing) | [p5 Tutorial](https://docs.google.com/document/d/1b8FelamwrUIGWBpiycag3Jxyt6RHaUOjz0JxWzwJ6DU/edit?usp=sharing)
+      * [Processing Base Examples](https://drive.google.com/file/d/1_yZ6JpO-zt14DCC9UCKTcvKHNymYPuGa/view?usp=sharing)
+
+### Assignment: Dynamic Spaces
+   * [Design an interactive space as a storyboard and in code.](https://docs.google.com/document/d/1VpfVVueUlGjyoeTmFRgcbd-1WwbsK5uUehwL7ECROqk/edit?usp=sharing) | [See sample.](https://drive.google.com/file/d/1DrW_gIApYh_MsW6u_Ts0X8HV5pXmNMXy/view?usp=sharing)
+   * Fill out this survey about who you want to work with by Monday Mar 30: [ITP](https://goo.gl/forms/D9ZJyq3d4DDuAAnJ2) | [Barnard/Columbia](https://goo.gl/forms/rJwq5nZV5kZ7ODuQ2)
+   * Brainstorm what you'd like to explore in your final project. [Please see guidelines and example.](https://github.com/mimiyin/choreographic-interventions-s19/wiki/Brainstorming-Guidelines)
+
+## Project Development: Weeks 9, 10, 11
+   * [Schedule Time @Barnard Movement Lab](https://docs.google.com/spreadsheets/d/1l7PqCx14aNX-_X8EiWRcoZp43nwpDeaLIw4fPADHPv0/edit?usp=sharing)
+
+### Week 9 Assignment
+   * Collect source material this week: Sound, visuals, video, choreography, text, diagrams, drawings, storyboards and stick them in [your folder](https://drive.google.com/drive/folders/16UK7YpFvYBepmJH7AlqXUU5NVLXNvXrq?usp=sharing).
+   * Prepare material to show in class: 3 choreographic ideas. 1 sketch. (You can make more than that.)
+      * [Sign-up for a timeslot to work and post your sketches here](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments)
+
+Over the next 4 weeks, in groups of 3-4, create a movement-based interactive work that explores one or more modes of interaction and one or more of parameters of choreography from this course. The work can take the form of an installation or a performance. Installations can be time-based or persistent with no definitive start or end time. The only requirement is that the choreography must be interactive, meaning the performers are making choreographic decisions in real-time. This doesn’t mean there is no element of pre-set choreography, however there must be room in the choreographic structure for individual decision-making. You will have a maximum of 10 minutes to show your work. Each group will consist of 1-2 students from ITP and 1-2 students from Barnard.
+
+## Showing: Week 12
+
+***
 
 # Course Description
 This course re-conceives interactive media as a form of choreographic intervention. Instead of asking how moving bodies can control media, we will ask how rules of interaction can structure the composition of a dance.
