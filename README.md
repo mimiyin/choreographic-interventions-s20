@@ -368,11 +368,12 @@ lines[GEORGE].display();
 
 ### Assignment: Explore Online-As-Space
    * Play with the examples above.
+   * Please post both your written response and chair dance study by 10AM Friday so that we have enough time on Friday to review and respond to the material before class. Before class, I will ask you review everyone's examples of online performance and chair studies as well as leave written responses on at least 3 other people's work.
    * Write a short response to the following examples of online performance. (~3-5 sentences about each example.) What's the angle? Would it be possible in a live theater set-up? Would it be the same performance? What would be lost? Add a 4th of your own to analyze. It doesn't need to be a dance performance. It doesn't even need to be good! Just thought provoking about the medium. [Post a link to your writing response here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-8-response-to-online-performances)
       * [Daniel Linehan @The Tate](https://www.youtube.com/watch?v=Z-Tk7z692hM)
       * [ASMR Boyfriend](https://www.nytimes.com/2019/10/02/style/asmr-boyfriend-sleep-videos.html)
       * [Exquisite Corps](https://creative-capital.org/2016/07/06/42-choreographers-performing-1-dance-exquisite-corps/)
-   * Chair Dance Study: Create 3 movements where each of the 6 parameters we identified is specified. Practice each movement until it feels like a movement. Connect them together in a pattern. Video yourself repeating the pattern 5 times. [Please post your video here.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-8-the-chair-dance)
+   * Chair Dance Study: Create 3 movements where each of the 6 parameters [we identified in class](https://docs.google.com/document/d/1Wu2WuVk8Sav0qQGDdNYsNcIa-hiS_v4GwKmR8kJrm8E/edit?usp=sharing) is specified. Write-up your parameters in a document and link to it on the assignments page. Practice each movement until it feels like a movement. Connect them together in a pattern. Video yourself repeating the pattern 5 times. [Please post your video and parameters here.](https://docs.google.com/document/d/19o7jx-er-kwwc4lOUmo1A3zJezov8ezMz9K7oThg5BY/edit?usp=sharing)
    * Think about who you would like to work with on the final project. (I will send out link to spreadsheet.)
 
 
