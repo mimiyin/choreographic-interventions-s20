@@ -391,7 +391,7 @@ lines[GEORGE].display();
 
 
 ### Assignment: Hello Glitch
-   * Watch video tutorials (coming soon!)
+   * [Watch video tutorials](https://drive.google.com/drive/folders/1QPu2d_9j1zGcqAAnLirDMnA2sKXo5HA3)
    * If you're feeling good about the tutorials, try to combine [Streaming Skeleton](https://glitch.com/~share-skeletons) with either [Face-Tracking](https://editor.p5js.org/move.mimi/sketches/x5rDnPnCP) or [Hand-Tracking](https://editor.p5js.org/move.mimi/sketches/N4wb3v6EI). [Post a link to your Glitch project.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Assignments#week-9-hello-glitch)
    * Make a 30-90 second chair dance. Incorporate at least 1 of the techniques from the following:
       * [Re: Rosas](https://www.rosasdanstrosas.be/home/)| [Original Dance](https://www.youtube.com/watch?v=oQCTbCcSxis)
