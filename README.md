@@ -388,7 +388,9 @@ lines[GEORGE].display();
       * [Hand-Tracking](https://editor.p5js.org/move.mimi/sketches/N4wb3v6EI)
       * [WebRTC for building your own live streaming interface](https://glitch.com/~stream-video-skeleton)
       * [Embedding Youtube LiveStream in your sketch](https://editor.p5js.org/move.mimi/sketches/5cD3skl62) | [How to use Youtube LiveStream.](https://creatoracademy.youtube.com/page/lesson/livestream-production?cid=livestream&hl=en)
-
+   * Resources:
+      * [Notes from "What is Online Performance" discussion.](https://docs.google.com/document/d/1CFH8ZhqGC-pz1GSwWMgbXd8BI_PCmuYiHVaz6LCEvc0/edit?usp=sharing)
+      * Recordings of intro to tech and movement research exercises: [Shared Screen + Speaker](https://nyu.zoom.us/rec/play/tJ14Jrv8_TI3HNTDsgSDCvFwW42_eKys13RMrKEJzkrgAndVZ1KiM7oVMJwOr1UE-SIpwRCC6t31y_0?autoplay=true) | [Gallery-only View](https://nyu.zoom.us/rec/play/6Jwtd-r5rG43HIGRsQSDBP59W9TofKms0CFI_aULmk2xU3UFZFLwNOEVZ-tCrMeqZi0yBntCdV_npcGm?autoplay=true)
 
 ### Assignment: Hello Glitch
    * [Watch video tutorials](https://drive.google.com/drive/folders/1QPu2d_9j1zGcqAAnLirDMnA2sKXo5HA3)
