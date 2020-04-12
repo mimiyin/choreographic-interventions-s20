@@ -405,6 +405,7 @@ Over the next 3 weeks, in groups of 2-4, create an online dance performance that
 ## Project Development: Weeks 10, 11, 12
 
 ## Week 10
+   * [Recording of Class](https://nyu.zoom.us/rec/play/tcIqcuj9-mg3ToDAtASDBKcvW9S6e62s1SQe-aILyE-1VXcLZAWvYLEba-VxBlMX-rAI6Fnf7kILiY1K?autoplay=true&startTime=1586541039000)
 ### Assignment:
    * Flesh out your Brainstorm Google Slides for review by Monday evening. [Make sure your slides are in this folder](https://drive.google.com/drive/folders/1xaeSSEOYvjsMQfqDwSc3DRhHW68hon9N?usp=sharing) with your names as the title of the document.
    * Move your project forward for next week. [Ideas on how to do that.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Final-Project-Development) [Post your materials for review by Thursday evening.](https://docs.google.com/document/d/1xWIVCRvyzHA4wrxVAVOUdiWD7-K7q39qD4edGCR7yZo/edit?usp=sharing)
