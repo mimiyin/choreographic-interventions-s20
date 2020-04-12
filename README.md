@@ -406,7 +406,7 @@ Over the next 3 weeks, in groups of 2-4, create an online dance performance that
 
 ## Week 10
 ### Assignment:
-   * Flesh out your Brainstorm Google Slides for review by Sunday evening. [Make sure your slides are in this folder](https://drive.google.com/drive/folders/1xaeSSEOYvjsMQfqDwSc3DRhHW68hon9N?usp=sharing) with your names as the title of the document.
+   * Flesh out your Brainstorm Google Slides for review by Monday evening. [Make sure your slides are in this folder](https://drive.google.com/drive/folders/1xaeSSEOYvjsMQfqDwSc3DRhHW68hon9N?usp=sharing) with your names as the title of the document.
    * Move your project forward for next week. [Ideas on how to do that.](https://github.com/mimiyin/choreographic-interventions-s20/wiki/Final-Project-Development) [Post your materials for review by Thursday evening.](https://docs.google.com/document/d/1xWIVCRvyzHA4wrxVAVOUdiWD7-K7q39qD4edGCR7yZo/edit?usp=sharing)
 
 ## Showing: Week 12
