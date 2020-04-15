@@ -410,6 +410,7 @@ Over the next 3 weeks, in groups of 2-4, create an online dance performance that
       * Examples: [Face](https://editor.p5js.org/move.mimi/sketches/LhebWq8oc) | [Hands](https://editor.p5js.org/move.mimi/sketches/URw-406ah)
       * [Written Tutorial](https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html)
       * Tutorials on drawing in 3D with WebGL: [Written](https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5) | [Video](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bPhi8sS1hHJ77n3zRO9FR_): Just watching 18.1 is enough.
+   * [Sending Still Frames](https://glitch.com/~stream-video-frames)
 
 ### Assignment:
    * Flesh out your Brainstorm Google Slides for review by Monday evening. [Make sure your slides are in this folder](https://drive.google.com/drive/folders/1xaeSSEOYvjsMQfqDwSc3DRhHW68hon9N?usp=sharing) with your names as the title of the document.
