@@ -1,4 +1,4 @@
-# Choreographic Interventions Syllabus - Spring 2019
+# Choreographic Interventions Syllabus - Spring 2020
 
 - Spring 2020, Wednesdays 1:10-2:25PM (Barnard-only), Fridays 2-5PM
 - Locations:
